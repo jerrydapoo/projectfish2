@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000; // Use Render's PORT environment variable
 
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://garycantilang:wMfHyhRaq8pg4Mh1@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your connection string
+const uri = "mongodb+srv://garycantilang:<db_password>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";"; // Replace with your connection string
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function connectToDatabase() {
@@ -25,7 +25,7 @@ async function connectToDatabase() {
 
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('__dirname')); // Serve static files from the "public" directory
+app.use(express.static(__dirname)); // Serve static files from the "public" directory
 
 // Route to handle login form submission
 app.post('/submit-login', (req, res) => {
