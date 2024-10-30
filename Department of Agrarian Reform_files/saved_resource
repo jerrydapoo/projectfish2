@@ -1,0 +1,1915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" prefix="og: http://ogp.me/ns#">
+<title>Department of Agrarian Reform</title>
+<meta name="description" content="Department of Agrarian Reform is the Philippines&#039; lead implementing agency of Comprehensive Agrarian Reform Program (CARP) and rural development.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.dar.gov.ph/">
+<meta property="og:title" content="Department of Agrarian Reform">
+<meta property="og:description" content="Department of Agrarian Reform is the Philippines&#039; lead implementing agency of Comprehensive Agrarian Reform Program (CARP) and rural development.">
+<meta property="og:image" content="http://media.dar.gov.ph/logos/dar/logo-ograph.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="fb:app_id" content="1602787579849811">
+<meta property="twitter:site" content="@dargovph">
+<link href="/assets/images/favicons/favicon-128x128.png" rel="icon" type="image/png">
+<link href="/assets/images/favicons/favicon-16x16.png" rel="apple-touch-icon" sizes="16x16" type="image/png">
+<link href="/assets/images/favicons/favicon-32x32.png" rel="apple-touch-icon" sizes="32x32" type="image/png">
+<link href="/assets/images/favicons/favicon-96x96.png" rel="apple-touch-icon" sizes="96x96" type="image/png">
+<link href="https://www.dar.gov.ph/articles/news/" rel="alternate" type="application/xml+rss" title="Department of Agrarian Reform RSS Feed">
+<link href="/assets/css/theme.min.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body class="module-application controller-index action-index"
+      id="body"
+      data-spy="scroll"
+      data-target="#toc"
+      data-offset="150"
+>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '1602787579849811',
+                cookie     : true,
+                xfbml      : true,
+                version    : 'v3.0'
+            });
+
+            FB.AppEvents.logPageView();
+        };
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+<div id="wrap" class="template-dar">
+    <nav id="header">
+    <div id="navbar-dict" class="navbar navbar-dict navbar-expand-lg navbar-light navbar-small bg-gradient-light border-bottom" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="http://www.gov.ph" target="_blank">GOV PH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlist-dict" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navlist-dict">
+                <ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link " href="/">Home</a></li><li class="nav-item"><a class="nav-link mi-regions mi-dict-regions" href="/regions">Regions</a></li><li class="nav-item"><a class="nav-link " href="/transparency-seal/">Transparency</a></li><li class="nav-item"><a class="nav-link " href="/directory/">Directory</a></li></ul>                <form class="form-inline my-2 my-md-0 w-30" method="get" action="/search">
+                    <div class="input-group input-group-sm m-0 w-100">
+                        <input class="form-control" type="text" name="q" placeholder="Search" aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Go!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> <!-- .wrapper-dict -->
+
+    <div id="navbar-main" class="navbar navbar-main navbar-dark navbar-expand-xl w-100 bg-dark" role="navigation">
+        <div class="container">
+            <a class="text-white navbar-brand d-flex justify-content-start" href="/">
+                <img src="/assets/images/logo.svg" width="48" height="48" alt="DAR Logo">
+                <div class="sitename m-0 ml-2 d-none d-md-block">
+                    <small class="site-govt-title">Republic of the Philippines</small><br>
+                    <span class="site-title-eng">Department of Agrarian Reform</span><br>
+                    <small class="site-title-tgl">Kagawaran ng Repormang Pansakahan</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlist-main" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-self-end justify-content-md-end" id="navlist-main">
+                <ul class="navbar-nav ml-auto align-self-end mr-3"><li class="nav-item active"><a class="nav-link " href="/">Home</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="/#" data-toggle="dropdown">About Us</a><div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item " href="/about-us/secretary/">Secretary</a><a class="dropdown-item " href="/about-us/mandate-mission-and-vision/">Mandate, Vision, and Mission</a><a class="dropdown-item " href="/about-us/agrarian-reform-history/">Agrarian Reform History</a><a class="dropdown-item " href="/about-us/dar-leaders/">DAR Leaders</a><a class="dropdown-item " href="/about-us/officials/">Officials</a><a class="dropdown-item " href="/about-us/org-structure/">Organizational Structure</a></div></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="/#" data-toggle="dropdown">Projects</a><div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item " href="/project-split/">SPLIT</a></div></li><li class="nav-item"><a class="nav-link " href="/services/">Services</a></li><li class="nav-item"><a class="nav-link " href="/policies/">Policies</a></li><li class="nav-item"><a class="nav-link " href="/articles/news/">Articles</a></li><li class="nav-item"><a class="nav-link " href="/contact-us">Contact Us</a></li></ul>                <div class="my-2 my-md-0 d-flex">
+                    <a href="/transparency-seal" class="transparency-small d-none d-xl-block mr-2">
+                        <img  width="48" height="48" src="/assets/images/logo-transparency-seal-125.png" alt="Transparency Seal">
+                    </a>
+                    <a href="https://www.foi.gov.ph/requests?agency=DAR" target="_blank" rel="nofollow" class="d-none d-xl-block">
+                        <img width="48" height="48" src="/assets/images/logo-foi-125.png" alt="FOI Logo">
+                    </a>
+                    <ul class="navbar-nav d-xl-none">
+                        <li class="nav-item">
+                             <a href="/transparency-seal" class="nav-link transparency-small">
+                                <img  width="48" height="48" src="/assets/images/logo-transparency-seal-125.png" alt="Transparency Seal">
+                            </a>
+                            <a href="https://www.foi.gov.ph/requests?agency=DAR" target="_blank" rel="nofollow" class="nav-link transparency-small">
+                                <img width="48" height="48" src="/assets/images/logo-foi-125.png" alt="FOI Logo">
+                            </a> 
+                            <!--
+                            <a class="nav-link" href="/transparency-seal">Transparency</a>
+                            <a class="nav-link" href="https://foi.gov.ph" target="_blank" rel="nofollow">Freedom of Information</a>
+                            -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .wrapper-main -->
+</nav> <!-- #header -->    <div id="content">
+        
+<div class="page page-home">
+
+<h1 class="d-none">Department of Agrarian Reform</h1>
+
+<div class="wrapper wrapper-area-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-17">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdargovph%2Fvideos%2F407792612286710%2F&show_text=0&width=560&autoplay=1"
+                            width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                    <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0QqiSTBLuMw?controls=0&autoplay=1"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe> -->
+                </div>
+                            </div>
+            <div class="col-lg-7">
+                <div class="card card-upcoming-events">
+                    <div class="card-header"><h2 class="h5 m-0">The Secretary</h2></div>
+                    <a href="/about-us/secretary"><img src="https://media.dar.gov.ph/source/2022/07/05/thumb.jpg" class="card-img-bottom" alt="DAR Secretary"></a>
+                </div>
+                <p class="mb-3"></p>
+                <div class="card card-upcoming-events">
+                    <div class="card-body">
+                        <address>Kagawaran ng Repormang Pansakahan
+                        Elliptical Road, Diliman, Quezon City
+                            Philippines 1107</address>
+                        <p class="mb-0">Email Address: <a href="mailto:contact_us@dar.gov.ph">contact_us@dar.gov.ph</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper wrapper-announcement">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                
+<div class="announcement-list-wrapper d-flex flex-row">
+    <h2 class="heading h6 m-0 text-uppercase">Announcement</h2>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- News -->
+<div class="wrapper wrapper-area-2" style="background: #cfcfcf none ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-17">
+                <div class="widget widget-latest-news mb-5">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Latest News</h2>
+                        <p class="h6 m-0 p-0"><a href="/articles/news/" class="">More <strong>News</strong></a></p>
+                    </div>
+                    <div class="widget-body">
+                        <div class="latest-news-wrapper">
+    <div class="latest-news">
+        <ul class="list-unstyled list-zebra container-fluid">
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105249"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/28/1.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 28, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105249">PARC approves P19-B fund to advance development in the countryside</a></h3>
+                    <p class="mb-0">One of the projects to be implemented under the approved fund is the Pang-Agraryong Tulay para sa Bagong Bayanihan ng mga Magsasaka (Project&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105248"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/26/0.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 25, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105248">Atty. Marilyn B. Barua-Yap Takes Oath as New Chairperson of the Civil Service Commission</a></h3>
+                    <p class="mb-0">October 25, 2024 &ndash; Atty. Marilyn B. Barua-Yap, formerly the Undersecretary for Special Concerns and External Affairs and Communication&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105245"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/23/1.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 23, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105245">DAR Camarines Sur inks partnership with SSS to expand social security coverage of all employees</a></h3>
+                    <p class="mb-0">&ldquo;The partnership grants permanent, JOs and COS employees additional essential retirement package, sickness, and death benefits, aside from&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105243"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/22/1.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 22, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105243">Female farmers to take centerstage in DAR’s poverty alleviation, food security project</a></h3>
+                    <p class="mb-0">The project places more premium on women&rsquo;s participation as indicated in the breakdown of the target beneficiaries: 50 percent women, 30&hellip;</p>
+                </div>
+            </li>
+                    </ul>
+            </div>
+</div>
+                    </div>
+                </div>
+                <div class="widget widget-latest-news mb-5">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">DAR in the News</h2>
+						<p class="h6 m-0 p-0"><a href="/articles/dar-in-the-news/" class="">More <strong>DAR in the News</strong></a></p>
+
+                    </div>
+                    <div class="widget-body">
+                        <div class="latest-news-wrapper">
+    <div class="latest-news">
+        <ul class="list-unstyled list-zebra container-fluid">
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/dar-in-the-news/105246"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/23/manila-standard.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 23, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/dar-in-the-news/105246">DAR program seeks more female farmers</a></h3>
+                    <p class="mb-0">THE Department of Agrarian Reform (DAR) has partnered with a foreign donor to empower 175,000 women as female farmers to take center stage in a&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/dar-in-the-news/105244"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/14/daily-tribune.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 22, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/dar-in-the-news/105244">NM farmers group tops trade fair sales</a></h3>
+                    <p class="mb-0">The Department of Agrarian Reform (DAR) on Monday reported that a farmers group in Northern Mindanao earned a total of P368,345, registering the&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/dar-in-the-news/105237"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/17/businessworld.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 17, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/dar-in-the-news/105237">145,000 land titles distributed</a></h3>
+                    <p class="mb-0">THE DEPARTMENT of Agrarian Reform (DAR) on Wednesday said it has distributed 146,017 land titles to beneficiaries under the administration of&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/dar-in-the-news/105229"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/14/daily-tribune.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1"><small><i class="fas fa-calendar-alt mr-1"></i> October 14, 2024</small></p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/dar-in-the-news/105229">Albay farmers’ group receives ₱5.5M swine repopulation project</a></h3>
+                    <p class="mb-0">The Department of Agrarian Reform (DAR) announced Monday that the Bantonan Community Development Cooperative (Bacodeco) in Barangay Bantonan,&hellip;</p>
+                </div>
+            </li>
+                    </ul>
+            </div>
+</div>
+                                            </div>
+                </div>
+                <div class="widget widget-latest-news">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Regional News</h2>
+                        <p class="h6 m-0 p-0"><a href="/articles/news/regions/" class="">More <strong>Regional News</strong></a></p>
+                    </div>
+                    <div class="widget-body">
+                        <div class="latest-news-wrapper">
+    <div class="latest-news">
+        <ul class="list-unstyled list-zebra container-fluid">
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105247"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/10/25/463387511-949502253863258-7016298150013598933-n.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1 small d-flex justify-content-between">
+                        <span class="dateline"><i class="fas fa-calendar-alt mr-1"></i> October 25, 2024</span><br class="d-none">
+                        <span class="region w-35">Region: <a href="https://www.dar.gov.ph/articles/news/regions/">Caraga Region</a></span>
+                    </p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105247">Caraga farmer beneficiaries generate P103-K sales at Agraryo Trade Fair 2024</a></h3>
+                    <p class="mb-0">Regional Director Atty. Merlita S. Capinpuyan stated, &ldquo;We at DAR are fully committed to providing holistic support to farmers, and this&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105204"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/09/27/dsc6899.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1 small d-flex justify-content-between">
+                        <span class="dateline"><i class="fas fa-calendar-alt mr-1"></i> September 27, 2024</span><br class="d-none">
+                        <span class="region w-35">Region: <a href="https://www.dar.gov.ph/articles/news/regions/">Caraga Region</a></span>
+                    </p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105204">Nearing target completion, DAR Caraga assesses Q3 accomplishments</a></h3>
+                    <p class="mb-0">Alongside ARBDSP, the assessment also tackled all pertinent sectors and programs, which are the Land Tenure Security Program (LTSP), the Agrarian&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105177"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/09/26/photo-150-1.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1 small d-flex justify-content-between">
+                        <span class="dateline"><i class="fas fa-calendar-alt mr-1"></i> September 26, 2024</span><br class="d-none">
+                        <span class="region w-35">Region: <a href="https://www.dar.gov.ph/articles/news/regions/">Caraga Region</a></span>
+                    </p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105177">DAR Caraga launches "DAR DAMAYAN" initiative to support personnel amidst calamities</a></h3>
+                    <p class="mb-0">OIC-Assistant Regional Director for Administration (ARDA), Joie L. Ceballos introduced the rationale for this endeavor, "DAR DAMAyan will soon be&hellip;</p>
+                </div>
+            </li>
+                        <li class="row mb-3 px-2 py-3">
+                <a class="col-md-8 mb-3 mb-md-0" href="https://www.dar.gov.ph/articles/news/105170"><img class="rounded w-100" src="https://media.dar.gov.ph/res-0224x0126/2024/09/22/dsc07037.jpg" alt="Image"></a>
+                <div class="col-md-16">
+                    <p class="mt-0 mb-1 small d-flex justify-content-between">
+                        <span class="dateline"><i class="fas fa-calendar-alt mr-1"></i> September 22, 2024</span><br class="d-none">
+                        <span class="region w-35">Region: <a href="https://www.dar.gov.ph/articles/news/regions/">Western Visayas</a></span>
+                    </p>
+                    <h3 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/articles/news/105170">PBBM TO SECURE FREEDOM OF EVERY FARMERS, DISTRIBUTES OVER 2,000 LAND TITLES</a></h3>
+                    <p class="mb-0">Fulfilling his promise, President Ferdinand R. Marcos, Jr. distributes E-titles and Certificates of Landownership Award (CLOAs) to the Agrarian&hellip;</p>
+                </div>
+            </li>
+                    </ul>
+            </div>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="widget widget-latest-bids mb-3">
+                    <div class="widget-body">
+                        <div class="card card-bids-awards-latest bg-dark-80">
+    <div class="card-header text-white"><h2 class="h5 m-0">Bids and Awards</h2></div>
+    <div class="list-group list-group-flush">
+                <a class="list-group-item" href="https://www.dar.gov.ph/bids-awards/projects/10223">
+            <p class="mb-1">
+                <small class="text-muted text-uppercase">Competitive Bidding</small><br>
+                <small class="text-muted text-uppercase"></small>
+            </p>
+            <p class="mb-1">Procurement of consultancy Services (FIRM) for the establishment of monitoring & evaluation system for the Climate and Farm Productivity Support (CRFPS) Project. (REBID)</p>
+            <p class="mb-1 text-right"><small class="text-muted">13 days ago</small></p>
+        </a>
+                <a class="list-group-item" href="https://www.dar.gov.ph/bids-awards/projects/10224">
+            <p class="mb-1">
+                <small class="text-muted text-uppercase">Unassigned</small><br>
+                <small class="text-muted text-uppercase"></small>
+            </p>
+            <p class="mb-1">Failure of Bidding for the Procurement of Consultancy Services (FIRM) for the establishment of monitoring & evaluation system for the Climate and Farm Productivity Support (CRFPS) Project.</p>
+            <p class="mb-1 text-right"><small class="text-muted">13 days ago</small></p>
+        </a>
+                <a class="list-group-item" href="https://www.dar.gov.ph/bids-awards/projects/10222">
+            <p class="mb-1">
+                <small class="text-muted text-uppercase">Competitive Bidding</small><br>
+                <small class="text-muted text-uppercase"></small>
+            </p>
+            <p class="mb-1">Procurement of Consultancy Services (FIRM) for the establishment of monitoring & evaluation system for the Climate and Farm Productivity Support (CRFPS) Project.</p>
+            <p class="mb-1 text-right"><small class="text-muted">about 1 month ago</small></p>
+        </a>
+            </div>
+    <div class="card-body text-center bg-white rounded-bottom" style="padding: 0.75rem 1.25rem;">
+        <a href="/bids-awards/projects/">More Projects</a>
+    </div>
+</div>                    </div>
+                </div>
+                <div class="widget widget-latest-bids mb-3">
+                    <div class="widget-body">
+                        <div class="card card-bids-awards-latest bg-dark-75">
+    <div class="card-header"><h2 class="h5 m-0 text-white">Job Postings</h2></div>
+            <div class="list-group list-group-flush rounded-bottom">
+            <span class="list-group-item">No announcement yet. Come back later.</span>
+        </div>
+    </div>                    </div>
+                </div>
+
+                <div class="widget widget-features mb-3">
+                    <div class="widget-body">
+                                <div class="card bg-dark-75">
+        <div class="card-header"><h2 class="h5 m-0 text-white">Features</h2></div>
+        <a class="d-block" href="https://www.dar.gov.ph/articles/features/104786"><img src="https://media.dar.gov.ph/res-0640x0360/2024/02/09/1.png" class="card-img-top" alt="Image"></a>
+        <div class="card-body bg-white">
+            <p class="card-text mt-0 mb-1 small d-flex justify-content-between">
+                <span class="dateline"><i class="fas fa-calendar-alt mr-1"></i> February 9, 2024</span><br class="d-none">
+            </p>
+            <h3 class="h5 card-title"><a href="https://www.dar.gov.ph/articles/features/104786">Breadfruit: A New and Nutritious Option for Filipino Staple Diets</a></h3>
+            <p class="card-text mb-0">In the flavorful fiesta of Filipino cuisine, a new contender is making waves&mdash;breadfruit, or as locals affectionately call it, "rimas,"&hellip;</p>
+        </div>
+        <div class="card-footer bg-white">
+                            <p class="text-right mb-0"><a class="font-weight-bold" href="/articles/features/">More Features</a></p>
+                    </div>
+    </div>
+                        </div>
+                </div>
+
+                <div class="widget widget-feed widget-feed-fb mb-3">
+                    <div class="widget-body">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdar.gov.ph&tabs=timeline&width=330&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true" width="100%" height="500" class="border-0" style="overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget widget-feed widget-feed-twitter">
+                    <div class="widget-body border rounded">
+                        <a class="twitter-timeline" data-height="500" data-link-color="#0b6b37" href="https://twitter.com/dargovph?ref_src=twsrc%5Etfw">Tweets by Department of Agrarian Reform, Philippines</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Links -->
+<div class="wrapper wrapper-area-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="widget widget-links">
+                    <h2 class="widget-heading h4 mt-0">Links</h2>
+                    <div class="widget-body">
+                                                <div class="container-fluid">
+                            <ul class="links-list links-list-6 links-list-home-3 list-unstyled row mb-0">
+                                <li class="link link-governance m-0 p-0 col">
+                                    <a class="d-block mb-3 text-center" data-toggle="collapse" href="#grp-gov" role="button">
+                                        Governance
+                                    </a>
+                                    <ul id="grp-gov" class="list-unstyled mb-3 text-center collapse">
+                                        <li><a href="/transparency-seal">Transparency Seal</a></li>
+                                        <li><a href="/citizens-charter">Citizen's Charter</a></li>
+                                        <li><a href="https://media.dar.gov.ph/source/2018/05/26/foi-manual_5b0834b93baf74_95544219.pdf">Freedom of Information</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link link-issuances m-0 p-0 col">
+                                    <a class="d-block mb-3 text-center" data-toggle="collapse" href="#grp-iss" target="_self">
+                                        Issuances
+                                    </a>
+                                    <ul id="grp-iss" class="list-unstyled mb-3 text-center collapse">
+                                        <li><a href="/issuances/commonwealth-acts">Commonwealth Acts</a></li>
+                                        <li><a href="/issuances/presidential-decrees">Presidential Decrees</a></li>
+                                        <li><a href="/issuances/republic-acts">Republic Acts</a></li>
+                                        <li><a href="/issuances">More...</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link link-downloads m-0 p-0 col">
+                                    <a class="d-block mb-3 text-center" data-toggle="collapse" href="#grp-dwn" target="_self">
+                                        Downloads
+                                    </a>
+                                    <ul id="grp-dwn" class="list-unstyled mb-3 text-center collapse">
+                                        <li><a href="/downloads/forms">Forms</a></li>
+                                        <li><a href="/downloads/publications">Publications</a></li>
+                                        <li><a href="/downloads/research-studies">Research Studies</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link link-announcements m-0 p-0 col">
+                                    <a class="d-block mb-3 text-center" data-toggle="collapse" href="#grp-ann" target="_self">
+                                        Announcements
+                                    </a>
+                                    <ul id="grp-ann" class="list-unstyled mb-3 text-center collapse">
+                                        <li><a href="/bids-awards">Bids and Awards</a></li>
+                                        <li><a href="/announcements/category/job-postings">Job Postings</a></li>
+                                        <li><a href="/announcements">General Announcements</a></li>
+                                    </ul>
+                                </li>
+                                <li class="link link-portals m-0 p-0 col">
+                                    <a class="d-block mb-3 text-center" data-toggle="collapse" href="#grp-prt" target="_self">
+                                        Web Apps
+                                    </a>
+                                    <ul id="grp-prt" class="list-unstyled mb-3 text-center collapse">
+                                        <li><a href="http://luzon-optool.dar.gov.ph" target="_blank" rel="nofollow">LTI OpTool - Luzon</a></li>
+                                        <li><a href="http://luzon-optool.dar.gov.ph" target="_blank" rel="nofollow">LTI OpTool - Visayas</a></li>
+                                        <li><a href="http://luzon-optool.dar.gov.ph" target="_blank" rel="nofollow">LTI OpTool - Mindanao</a></li>
+                                        <li><a href="http://www.lis.dar.gov.ph" target="_blank" rel="nofollow">Legal Information System</a></li>
+                                        <li><a href="https://balinkbayan.gov.ph/" target="_blank" rel="nofollow">Balink Bayan</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Infographics -->
+<div class="wrapper wrapper-area-photos" style="background: #cfcfcf none">
+    <div class="widget widget-latest-photos">
+        <div class="container mt-0">
+            <div class="row">
+                <div class="col-24">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Infographics</h2>
+                        <p class="h6 m-0 p-0"><a href="/infographics/" class="">More <strong>Infographics</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-body">
+            <div class="layout-alpha">
+            <div class="container">
+            <div class="row">
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1057" href="https://www.dar.gov.ph/infographics/infographics/1057">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2022/10/13/4.jpg" alt="Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 13, 2022</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1057" href="https://www.dar.gov.ph/infographics/infographics/1057">
+                                        Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1056" href="https://www.dar.gov.ph/infographics/infographics/1056">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2022/10/12/3.jpg" alt="Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 13, 2022</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1056" href="https://www.dar.gov.ph/infographics/infographics/1056">
+                                        Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1055" href="https://www.dar.gov.ph/infographics/infographics/1055">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2022/10/12/2-1.jpg" alt="Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 12, 2022</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1055" href="https://www.dar.gov.ph/infographics/infographics/1055">
+                                        Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1054" href="https://www.dar.gov.ph/infographics/infographics/1054">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2022/10/11/1-1.jpg" alt="Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 12, 2022</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1054" href="https://www.dar.gov.ph/infographics/infographics/1054">
+                                        Nilagdaan ni Pangulong Ferdinand R. Marcos, Jr. ang isang EO na may titulong, “Directing the Implementation of a Moratorium on the Payment of the Principal Obligation and Interest of the Amortization Due and Payable by Agrarian Reform Beneficiaries.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1053" href="https://www.dar.gov.ph/infographics/infographics/1053">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/10/05/1-1.png" alt="The Grievance Redress Mechanism (GRM) is designed to seek and generate feedback from and to project stakeholders and address problems, issues, or complaints related to project activities, and project environmental and social performance.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 5, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1053" href="https://www.dar.gov.ph/infographics/infographics/1053">
+                                        The Grievance Redress Mechanism (GRM) is designed to seek and generate feedback from and to project stakeholders and address problems, issues, or complaints related to project activities, and project environmental and social performance.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1052" href="https://www.dar.gov.ph/infographics/infographics/1052">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/10/05/2.png" alt="The Grievance Redress Mechanism (GRM) is designed to seek and generate feedback from and to project stakeholders and address problems, issues, or complaints related to project activities, and project environmental and social performance.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 5, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1052" href="https://www.dar.gov.ph/infographics/infographics/1052">
+                                        The Grievance Redress Mechanism (GRM) is designed to seek and generate feedback from and to project stakeholders and address problems, issues, or complaints related to project activities, and project environmental and social performance.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1051" href="https://www.dar.gov.ph/infographics/infographics/1051">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/02/18/1.jpg" alt="Ang mga karagdagang batayan upang maging isang agrarian reform beneficiary sa ilalim ng Comprehensive Agrarian Reform Program (CARP).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 18, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1051" href="https://www.dar.gov.ph/infographics/infographics/1051">
+                                        Ang mga karagdagang batayan upang maging isang agrarian reform beneficiary sa ilalim ng Comprehensive Agrarian Reform Program (CARP).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1050" href="https://www.dar.gov.ph/infographics/infographics/1050">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/02/18/2-1.jpg" alt="Ang mga karagdagang batayan upang maging isang agrarian reform beneficiary sa ilalim ng Comprehensive Agrarian Reform Program (CARP).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 18, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1050" href="https://www.dar.gov.ph/infographics/infographics/1050">
+                                        Ang mga karagdagang batayan upang maging isang agrarian reform beneficiary sa ilalim ng Comprehensive Agrarian Reform Program (CARP).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1049" href="https://www.dar.gov.ph/infographics/infographics/1049">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/02/18/3.jpg" alt="Ang mga karagdagang batayan upang maging isang agrarian reform beneficiary sa ilalim ng Comprehensive Agrarian Reform Program (CARP).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 18, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1049" href="https://www.dar.gov.ph/infographics/infographics/1049">
+                                        Ang mga karagdagang batayan upang maging isang agrarian reform beneficiary sa ilalim ng Comprehensive Agrarian Reform Program (CARP).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1048" href="https://www.dar.gov.ph/infographics/infographics/1048">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/02/05/new-bala.jpg" alt="Here are the phone numbers and official email account of the Bureau of Agrarian Legal Assistance (BALA) for your agrarian-related legal concerns.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 5, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1048" href="https://www.dar.gov.ph/infographics/infographics/1048">
+                                        Here are the phone numbers and official email account of the Bureau of Agrarian Legal Assistance (BALA) for your agrarian-related legal concerns.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1047" href="https://www.dar.gov.ph/infographics/infographics/1047">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/01/16/136379343-3844745815582328-4111619856406978648-o.png" alt="Ang DAR ay magkakaloob ng mga lupang agrikultural sa mga kwalipikadong nagtapos ng apat-na-taong kurso sa agrikultura o may kaugnay na kurso sa nasabing larangan. ">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> January 6, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1047" href="https://www.dar.gov.ph/infographics/infographics/1047">
+                                        Ang DAR ay magkakaloob ng mga lupang agrikultural sa mga kwalipikadong nagtapos ng apat-na-taong kurso sa agrikultura o may kaugnay na kurso sa nasabing larangan.                                     </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1046" href="https://www.dar.gov.ph/infographics/infographics/1046">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/01/16/136696585-3844532428937000-6066184442929889447-o.png" alt="DAR tumukoy ng 230,000 ektaryang lupain ng pamahalaan upang maipamahagi para sa mga nagtapos ng agrikultura. ">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> January 6, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1046" href="https://www.dar.gov.ph/infographics/infographics/1046">
+                                        DAR tumukoy ng 230,000 ektaryang lupain ng pamahalaan upang maipamahagi para sa mga nagtapos ng agrikultura.                                     </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1045" href="https://www.dar.gov.ph/infographics/infographics/1045">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/01/16/2.png" alt="Ang Administrative Order No. 3, Serye ng 2020 ay nagsasaad ng mga kinakailangang kondisyon upang maging kwalipikado bilang mga nagtapos ng kursong agrikultura na maaaring mapagkalooban ng lupang sakahan.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> January 6, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1045" href="https://www.dar.gov.ph/infographics/infographics/1045">
+                                        Ang Administrative Order No. 3, Serye ng 2020 ay nagsasaad ng mga kinakailangang kondisyon upang maging kwalipikado bilang mga nagtapos ng kursong agrikultura na maaaring mapagkalooban ng lupang sakahan.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1044" href="https://www.dar.gov.ph/infographics/infographics/1044">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2021/01/16/1.png" alt="Ang Administrative Order No. 3, Serye ng 2020 ay nagsasaad ng mga kinakailangang kondisyon upang maging kwalipikado bilang mga nagtapos ng kursong agrikultura na maaaring mapagkalooban ng lupang sakahan.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> January 6, 2021</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1044" href="https://www.dar.gov.ph/infographics/infographics/1044">
+                                        Ang Administrative Order No. 3, Serye ng 2020 ay nagsasaad ng mga kinakailangang kondisyon upang maging kwalipikado bilang mga nagtapos ng kursong agrikultura na maaaring mapagkalooban ng lupang sakahan.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1043" href="https://www.dar.gov.ph/infographics/infographics/1043">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2020/11/26/dar-to-vaw.gif" alt="DAR joins 18-day campaign to end violence against women">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> November 26, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1043" href="https://www.dar.gov.ph/infographics/infographics/1043">
+                                        DAR joins 18-day campaign to end violence against women                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1041" href="https://www.dar.gov.ph/infographics/infographics/1041">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2020/10/15/download.jpg" alt="Radyo Agraryo sa Veritas846.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 15, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1041" href="https://www.dar.gov.ph/infographics/infographics/1041">
+                                        Radyo Agraryo sa Veritas846.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1039" href="https://www.dar.gov.ph/infographics/infographics/1039">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/10/05/3.png" alt="The proposed “New Economic Opportunities in Government-Owned Land Distribution (NEO-GOLD)”, once approved, will be implemented by the DAR Field Operations Office (FOO) headed by Undersecretary David D. Erro.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 5, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1039" href="https://www.dar.gov.ph/infographics/infographics/1039">
+                                        The proposed “New Economic Opportunities in Government-Owned Land Distribution (NEO-GOLD)”, once approved, will be implemented by the DAR Field Operations Office (FOO) headed by Undersecretary David D. Erro.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1038" href="https://www.dar.gov.ph/infographics/infographics/1038">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/10/05/4-1.png" alt="	The DAR will also coordinate and facilitate the provision of credit and microfinance for production, processing, and agri-enterprises for the 15,000 enrollees.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 5, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1038" href="https://www.dar.gov.ph/infographics/infographics/1038">
+                                        	The DAR will also coordinate and facilitate the provision of credit and microfinance for production, processing, and agri-enterprises for the 15,000 enrollees.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1037" href="https://www.dar.gov.ph/infographics/infographics/1037">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/09/22/new-bala.jpg" alt="Here are the phone numbers and official email account of the Bureau of Agrarian Legal Assistance (BALA) for your agrarian-related legal concerns.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> September 22, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1037" href="https://www.dar.gov.ph/infographics/infographics/1037">
+                                        Here are the phone numbers and official email account of the Bureau of Agrarian Legal Assistance (BALA) for your agrarian-related legal concerns.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1033" href="https://www.dar.gov.ph/infographics/infographics/1033">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/07/29/1-1.jpg" alt="On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 29, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1033" href="https://www.dar.gov.ph/infographics/infographics/1033">
+                                        On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1034" href="https://www.dar.gov.ph/infographics/infographics/1034">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/07/29/2.jpg" alt="On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 29, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1034" href="https://www.dar.gov.ph/infographics/infographics/1034">
+                                        On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1035" href="https://www.dar.gov.ph/infographics/infographics/1035">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/07/29/3.jpg" alt="On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 29, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1035" href="https://www.dar.gov.ph/infographics/infographics/1035">
+                                        On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1036" href="https://www.dar.gov.ph/infographics/infographics/1036">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/07/29/4.jpg" alt="On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 29, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1036" href="https://www.dar.gov.ph/infographics/infographics/1036">
+                                        On the temporary suspension of the DAR Adjudication Board (DARAB) Secretariat operation.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1032" href="https://www.dar.gov.ph/infographics/infographics/1032">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/07/21/0.jpg" alt="Pansamantala po kayong paglilingkuran ng sumusunod naming mga tanggapan gamit ang nakalistang mga landline at cellphone numbers.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 21, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1032" href="https://www.dar.gov.ph/infographics/infographics/1032">
+                                        Pansamantala po kayong paglilingkuran ng sumusunod naming mga tanggapan gamit ang nakalistang mga landline at cellphone numbers.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1031" href="https://www.dar.gov.ph/infographics/infographics/1031">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2020/06/24/download.jpg" alt="Ano ang DAR?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> June 24, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1031" href="https://www.dar.gov.ph/infographics/infographics/1031">
+                                        Ano ang DAR?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1030" href="https://www.dar.gov.ph/infographics/infographics/1030">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifg/2020/06/16/paunawa-dar-final-resized-final.jpg" alt="Ang inyong mga katanungan at pangangailangan ay aming tutugunan kahit sa panahon ng pandemya. Narito po ang mga numerong maaaring tawagan habang ang DAR ay hindi pa tumatanggap ng mga bisita.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> June 17, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1030" href="https://www.dar.gov.ph/infographics/infographics/1030">
+                                        Ang inyong mga katanungan at pangangailangan ay aming tutugunan kahit sa panahon ng pandemya. Narito po ang mga numerong maaaring tawagan habang ang DAR ay hindi pa tumatanggap ng mga bisita.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-image" data-infographic-id="1029" href="https://www.dar.gov.ph/infographics/infographics/1029">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260-ifghttp://media.dar.gov.ph2020/02/15/22.png" alt="Mga payo ng DAR para mapigilan ang pagkalat ng 2019-nCov o COVID-19.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 16, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1029" href="https://www.dar.gov.ph/infographics/infographics/1029">
+                                        Mga payo ng DAR para mapigilan ang pagkalat ng 2019-nCov o COVID-19.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1028" href="https://www.dar.gov.ph/infographics/infographics/1028">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2020/02/14/thumbnail.jpg" alt="DAR 2019-nCov o COVID-19 infomercial.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 14, 2020</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1028" href="https://www.dar.gov.ph/infographics/infographics/1028">
+                                        DAR 2019-nCov o COVID-19 infomercial.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1027" href="https://www.dar.gov.ph/infographics/infographics/1027">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/12/31/download.jpg" alt="DAR 2020 New Year greetings. ">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> December 31, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1027" href="https://www.dar.gov.ph/infographics/infographics/1027">
+                                        DAR 2020 New Year greetings.                                     </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1026" href="https://www.dar.gov.ph/infographics/infographics/1026">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/12/24/mq2.jpg" alt="DAR Christmas greetings from DARwin and DARla.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> December 24, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1026" href="https://www.dar.gov.ph/infographics/infographics/1026">
+                                        DAR Christmas greetings from DARwin and DARla.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1025" href="https://www.dar.gov.ph/infographics/infographics/1025">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/11/17/thumbnail-infogfxpg-8.jpg" alt="Pagresolba ng DARAB sa mga sigalot.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> November 17, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1025" href="https://www.dar.gov.ph/infographics/infographics/1025">
+                                        Pagresolba ng DARAB sa mga sigalot.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1024" href="https://www.dar.gov.ph/infographics/infographics/1024">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/11/12/thumbnail-infogfx-pg-9.jpg" alt="Anu-ano ang mga uri ng sigalot pang-agraryong administratibo na itinuturing na Agrarian Law Implementation (ALI) cases?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> November 12, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1024" href="https://www.dar.gov.ph/infographics/infographics/1024">
+                                        Anu-ano ang mga uri ng sigalot pang-agraryong administratibo na itinuturing na Agrarian Law Implementation (ALI) cases?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1023" href="https://www.dar.gov.ph/infographics/infographics/1023">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/07/21/thumbnail-infogfx-pg-6-part5.jpg" alt="Kailan maihahatid ang ARB sa lupang iginawad sa kanya ng DAR?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 21, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1023" href="https://www.dar.gov.ph/infographics/infographics/1023">
+                                        Kailan maihahatid ang ARB sa lupang iginawad sa kanya ng DAR?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1022" href="https://www.dar.gov.ph/infographics/infographics/1022">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/07/20/thumbnail-infogfx-pg-6-part4.jpg" alt="Anong dokumento ang magpapakita na ang ARB ay may-ari na ng iginawad na lupa?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 20, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1022" href="https://www.dar.gov.ph/infographics/infographics/1022">
+                                        Anong dokumento ang magpapakita na ang ARB ay may-ari na ng iginawad na lupa?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1021" href="https://www.dar.gov.ph/infographics/infographics/1021">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/07/19/thumbnail-infogfx-pg-6-part3.jpg" alt="Paano malalaman kung ikaw ay napili bilang Agrarian Reform Beneficiary (ARB)?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 19, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1021" href="https://www.dar.gov.ph/infographics/infographics/1021">
+                                        Paano malalaman kung ikaw ay napili bilang Agrarian Reform Beneficiary (ARB)?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1020" href="https://www.dar.gov.ph/infographics/infographics/1020">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/07/18/thumbnail-infogfx-pg-6-part2.jpg" alt="Sino ang may katungkulan sa pagsala ng mga Agrarian Reform Beneficiaries (ARBs) sa kanilang mga sakahin?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 18, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1020" href="https://www.dar.gov.ph/infographics/infographics/1020">
+                                        Sino ang may katungkulan sa pagsala ng mga Agrarian Reform Beneficiaries (ARBs) sa kanilang mga sakahin?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1019" href="https://www.dar.gov.ph/infographics/infographics/1019">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/07/17/thumbnail-infogfx-pg-6-part1.jpg" alt="Ang may-ari ba ay may karapatang pumili at magtakda ng magiging benepisyaryo sa kanyang lupa?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 17, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1019" href="https://www.dar.gov.ph/infographics/infographics/1019">
+                                        Ang may-ari ba ay may karapatang pumili at magtakda ng magiging benepisyaryo sa kanyang lupa?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1017" href="https://www.dar.gov.ph/infographics/infographics/1017">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/05/19/thumbnail-part2.jpg" alt="Ang mga iba pang uri ng lupang maaaring isailalim sa Comprehensive Agrarian Reform Program o CARP ng DAR.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> May 19, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1017" href="https://www.dar.gov.ph/infographics/infographics/1017">
+                                        Ang mga iba pang uri ng lupang maaaring isailalim sa Comprehensive Agrarian Reform Program o CARP ng DAR.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1016" href="https://www.dar.gov.ph/infographics/infographics/1016">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/05/18/thumbnail-part1.jpg" alt="Ano ang mga lupaing sakop ng Comprehensive Agrarian Reform Program o CARP ng DAR?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> May 18, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1016" href="https://www.dar.gov.ph/infographics/infographics/1016">
+                                        Ano ang mga lupaing sakop ng Comprehensive Agrarian Reform Program o CARP ng DAR?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1015" href="https://www.dar.gov.ph/infographics/infographics/1015">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/04/28/askdarwin-5-thumbnail-1.jpg" alt="Ano ang pagkakaiba sa mga pamamaraang pamamagitan at paghuhusga?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> April 28, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1015" href="https://www.dar.gov.ph/infographics/infographics/1015">
+                                        Ano ang pagkakaiba sa mga pamamaraang pamamagitan at paghuhusga?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1014" href="https://www.dar.gov.ph/infographics/infographics/1014">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/04/27/askdarwin-4-thumbnail.jpg" alt="Paano isinasagawa ang Arbitration?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> April 27, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1014" href="https://www.dar.gov.ph/infographics/infographics/1014">
+                                        Paano isinasagawa ang Arbitration?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1013" href="https://www.dar.gov.ph/infographics/infographics/1013">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/04/26/askdarwin-3-thumbnail.jpg" alt="Ang Pamamagitan at Pakikipagkasundo ba ay mga uri ng Alternative Dispute Resolution (ADR)?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> April 26, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1013" href="https://www.dar.gov.ph/infographics/infographics/1013">
+                                        Ang Pamamagitan at Pakikipagkasundo ba ay mga uri ng Alternative Dispute Resolution (ADR)?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1012" href="https://www.dar.gov.ph/infographics/infographics/1012">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/04/24/askdarwin-2-thumbnail.jpg" alt="Magkatulad nga ba ang Mediation at Conciliation?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> April 25, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1012" href="https://www.dar.gov.ph/infographics/infographics/1012">
+                                        Magkatulad nga ba ang Mediation at Conciliation?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1011" href="https://www.dar.gov.ph/infographics/infographics/1011">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/04/24/56918265-2097917243627597-4782975468880003072-n.jpg" alt="Ano ang Pamamagitan o Mediation?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> April 24, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1011" href="https://www.dar.gov.ph/infographics/infographics/1011">
+                                        Ano ang Pamamagitan o Mediation?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1002" href="https://www.dar.gov.ph/infographics/infographics/1002">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/12/infigrap-national-1-thumbnail-february-21-2019.jpg" alt="Pagpapalit-gamit ng lupa (land conversion).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 21, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1002" href="https://www.dar.gov.ph/infographics/infographics/1002">
+                                        Pagpapalit-gamit ng lupa (land conversion).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1003" href="https://www.dar.gov.ph/infographics/infographics/1003">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-february-17-2019.jpg" alt="Ano ang pinakamahalagang karapatan ng kasama?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 17, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1003" href="https://www.dar.gov.ph/infographics/infographics/1003">
+                                        Ano ang pinakamahalagang karapatan ng kasama?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1004" href="https://www.dar.gov.ph/infographics/infographics/1004">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-february-16-2019.jpg" alt="Maaari bang paalisin o tanggalin ng may-ari ng lupa ang kasama sa hindi pagsunod sa kontrata?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 16, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1004" href="https://www.dar.gov.ph/infographics/infographics/1004">
+                                        Maaari bang paalisin o tanggalin ng may-ari ng lupa ang kasama sa hindi pagsunod sa kontrata?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1005" href="https://www.dar.gov.ph/infographics/infographics/1005">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-february-15-2019.jpg" alt="Nawawalan ba ng karapatan ang kasama kapag ibinenta ng may-ari ang kanyang lupa?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 15, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1005" href="https://www.dar.gov.ph/infographics/infographics/1005">
+                                        Nawawalan ba ng karapatan ang kasama kapag ibinenta ng may-ari ang kanyang lupa?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1006" href="https://www.dar.gov.ph/infographics/infographics/1006">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-february-14-2019.jpg" alt="Maari bang utusan ng may-ari ng lupa o nagpapaupa na palitan ng magsasakang umuupa ang kanyang mga pananim sa pangkomersiyong mga pananim?">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> February 14, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1006" href="https://www.dar.gov.ph/infographics/infographics/1006">
+                                        Maari bang utusan ng may-ari ng lupa o nagpapaupa na palitan ng magsasakang umuupa ang kanyang mga pananim sa pangkomersiyong mga pananim?                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1007" href="https://www.dar.gov.ph/infographics/infographics/1007">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-january-29-2019.jpg" alt="DAR Sec. John Castriciones animation.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> January 29, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1007" href="https://www.dar.gov.ph/infographics/infographics/1007">
+                                        DAR Sec. John Castriciones animation.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1008" href="https://www.dar.gov.ph/infographics/infographics/1008">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-january-23-2019.jpg" alt="Accessible and Sustainable Lending Program for Small Farmers.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> January 23, 2019</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1008" href="https://www.dar.gov.ph/infographics/infographics/1008">
+                                        Accessible and Sustainable Lending Program for Small Farmers.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card">
+                            <a class="d-block" data-toggle="modal" data-target="#infographic-modal-video" data-infographic-id="1010" href="https://www.dar.gov.ph/infographics/infographics/1010">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2019/03/13/infograp-national-1-thumbnail-december-13-2018.jpg" alt="Warning against corrupt practices.">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> December 13, 2018</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#infographic-modal" data-card-id="1010" href="https://www.dar.gov.ph/infographics/infographics/1010">
+                                        Warning against corrupt practices.                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade infographic-modal" id="infographic-modal-image" tabindex="-1" role="dialog" aria-labelledby="Infographic" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="small byline">
+                            <span class="date"><i class="fas fa-calendar-alt mr-1 text-primary"></i> <span></span></span>
+                        </p>
+                        <div class="image-area rounded mb-3 bg-secondary" style="">
+                            <img src="#" class="d-block img-fluid rounded" style="visibility: hidden; min-height: 300px" alt="">
+                        </div>
+                        <div class="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade infographic-modal" id="infographic-modal-video" tabindex="-1" role="dialog" aria-labelledby="Infographic" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="small byline">
+                            <span class="date"><i class="fas fa-calendar-alt mr-1 text-primary"></i> <span></span></span>
+                        </p>
+                        <div class="embed-responsive bg-secondary">
+                            <iframe width="100%" src="" frameborder="0"></iframe>
+                        </div>
+                        <div class="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+<!-- Social Cards -->
+<div class="wrapper wrapper-area-socialcards"  style="background: #e8e8e8 none">
+    <div class="widget widget-latest-socialcards">
+        <div class="container mt-0">
+            <div class="row">
+                <div class="col-24">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Social Cards</h2>
+                        <p class="h6 m-0 p-0"><a href="/social-cards/" class="">More <strong>Cards</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-body">
+            <div class="layout-alpha">
+    <div class="container">
+        <div class="row">
+                            <div class="col-sm-8 col-xs-12 mb-3">
+                    <div class="card">
+                        <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2894">
+                            <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2024/10/23/1-1.jpg" alt="The Civil Service Commission (CSC) recognized the Department of Agrarian Reform (DAR) for being one of the top three government agencies with the highest resolution and compliance rates for customer feedback from January to December 2023. ">
+                        </a>
+                        <div class="card-body text-body">
+                            <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 23, 2024</small></p>
+                            <h5 class="card-title mb-0">
+                                <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2894">
+                                    The Civil Service Commission (CSC) recognized the Department of Agrarian Reform (DAR) for being one of the top three government agencies with the highest resolution and compliance rates for customer feedback from January to December 2023.                                 </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-sm-8 col-xs-12 mb-3">
+                    <div class="card">
+                        <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2893">
+                            <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2024/10/22/464144643-1001549702005367-5978902711988342874-n.jpg" alt="Maraming salamat, Sir Karlo! Your leadership and example inspire me to honor the trust placed in me and to bring government to the people.">
+                        </a>
+                        <div class="card-body text-body">
+                            <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 21, 2024</small></p>
+                            <h5 class="card-title mb-0">
+                                <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2893">
+                                    Maraming salamat, Sir Karlo! Your leadership and example inspire me to honor the trust placed in me and to bring government to the people.                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-sm-8 col-xs-12 mb-3">
+                    <div class="card">
+                        <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2892">
+                            <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2024/10/17/463374889-998153229011681-8836744390008899325-n.jpg" alt="Secretary Conrado M. Estrella III led the presentation of the proposed P11.101-B DAR Budget for 2025 during the October 16 hearing, chaired by Senate Finance Subcommittee B chairperson Senator Cynthia Villar.">
+                        </a>
+                        <div class="card-body text-body">
+                            <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 17, 2024</small></p>
+                            <h5 class="card-title mb-0">
+                                <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2892">
+                                    Secretary Conrado M. Estrella III led the presentation of the proposed P11.101-B DAR Budget for 2025 during the October 16 hearing, chaired by Senate Finance Subcommittee B chairperson Senator Cynthia Villar.                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-sm-8 col-xs-12 mb-3">
+                    <div class="card">
+                        <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2891">
+                            <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2024/10/16/463290766-996347475858923-735988183408365746-n.jpg" alt="The Agraryo Trade Fair (ATF) 2024 showcases a wide array of food and non-food products, furniture, handicrafts, and organic goods crafted by women agrarian reform beneficiaries (ARBs).">
+                        </a>
+                        <div class="card-body text-body">
+                            <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 15, 2024</small></p>
+                            <h5 class="card-title mb-0">
+                                <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2891">
+                                    The Agraryo Trade Fair (ATF) 2024 showcases a wide array of food and non-food products, furniture, handicrafts, and organic goods crafted by women agrarian reform beneficiaries (ARBs).                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-sm-8 col-xs-12 mb-3">
+                    <div class="card">
+                        <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2890">
+                            <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260/2024/10/15/461671025-983859393774398-2728300814527784127-n.jpg" alt="Ngayong Araw ng mga Kababaihan ng Kanayunan, ating pinararangalan ang lakas, sipag, at pamumuno ng mga kababaihan sa repormang agraryo.">
+                        </a>
+                        <div class="card-body text-body">
+                            <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 15, 2024</small></p>
+                            <h5 class="card-title mb-0">
+                                <a class="d-block"  data-toggle="modal" data-target="#socialcard-modal" data-card-id="<?php echo $card->id; ?>" href="https://www.dar.gov.ph/social-cards/cards/2890">
+                                    Ngayong Araw ng mga Kababaihan ng Kanayunan, ating pinararangalan ang lakas, sipag, at pamumuno ng mga kababaihan sa repormang agraryo.                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-sm-8 col-xs-12 mb-3">
+                    <div class="card">
+                        <a class="d-block"  href="https://www.dar.gov.ph/social-cards/categories/30-years-of-carp">
+                            <img class="card-img-top" src="https://media.dar.gov.ph/res-0390x260http://media.dar.gov.ph2018/07/18/socmed-card-1-july-5-2018jpeg.jpg" alt="Life!">
+                        </a>
+                        <div class="card-body text-body">
+                            <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> July 5, 2018</small></p>
+                            <h5 class="card-title mb-0">
+                                <a class="d-block"  href="https://www.dar.gov.ph/social-cards/categories/30-years-of-carp">
+                                    Life!                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade socialcard-modal" id="socialcard-modal" tabindex="-1" role="dialog" aria-labelledby="Card" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pb-0">
+                    <p class="small byline">
+                        <span class="date"><i class="fas fa-calendar-alt mr-1 text-primary"></i> <span></span></span>
+                    </p>
+                    <div class="image-area rounded mb-3 bg-secondary" style="">
+                        <img src="#" class="d-block img-fluid rounded" style="visibility: hidden; min-height: 300px" alt="">
+                    </div>
+                    <div class="caption"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+<!-- Videos -->
+<div class="wrapper wrapper-area-videos">
+    <div class="widget widget-latest-videos">
+        <div class="container mt-0">
+            <div class="row">
+                <div class="col-24">
+                    <div class="widget-heading d-flex justify-content-between align-items-end pb-3 mb-3 border-bottom">
+                        <h2 class="h1 m-0 p-0">Videos</h2>
+                        <p class="h4 m-0 p-0"><a href="/videos/" class="text-white">More <strong>Videos</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-body">
+            <div class="layout-alpha">
+            <div class="container">
+            <div class="row">
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card border-0">
+                            <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="496" href="https://www.dar.gov.ph/videos/video/">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0640x0360/2024/10/28/dnu-thumbnail-3.png" alt="DAR news update (2024 october week 4).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 28, 2024</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="496" href="https://www.dar.gov.ph/videos/video/">
+                                        DAR news update (2024 october week 4).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card border-0">
+                            <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="495" href="https://www.dar.gov.ph/videos/video/">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0640x0360/2024/10/21/dnu-thumbnail-3.png" alt="DAR news update (2024 october week 3).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 21, 2024</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="495" href="https://www.dar.gov.ph/videos/video/">
+                                        DAR news update (2024 october week 3).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card border-0">
+                            <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="493" href="https://www.dar.gov.ph/videos/video/">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0640x0360/2024/10/14/dnu-thumbnail-3.png" alt="DAR news update (2024 october week 2).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 14, 2024</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="493" href="https://www.dar.gov.ph/videos/video/">
+                                        DAR news update (2024 october week 2).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card border-0">
+                            <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="494" href="https://www.dar.gov.ph/videos/video/">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0640x0360/2024/10/14/dnu-thumbnail-3-1.png" alt="DAR news update (2024 october week 1).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> October 7, 2024</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="494" href="https://www.dar.gov.ph/videos/video/">
+                                        DAR news update (2024 october week 1).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card border-0">
+                            <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="492" href="https://www.dar.gov.ph/videos/video/">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0640x0360/2024/09/30/dnu-thumbnail-2.png" alt="DAR news update (2024 september week 4).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> September 30, 2024</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="492" href="https://www.dar.gov.ph/videos/video/">
+                                        DAR news update (2024 september week 4).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-sm-8 col-xs-12 mb-3">
+                        <div class="card border-0">
+                            <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="491" href="https://www.dar.gov.ph/videos/video/">
+                                <img class="card-img-top" src="https://media.dar.gov.ph/res-0640x0360/2024/09/23/dnu-thumbnail-2.png" alt="DAR news update (2024 september week 3).">
+                            </a>
+                            <div class="card-body text-body">
+                                <p class="card-text text-left"><small class="text-muted"><i class="fas fa-calendar-alt mr-1 text-primary"></i> September 23, 2024</small></p>
+                                <h5 class="card-title mb-0">
+                                    <a class="d-block" data-toggle="modal" data-target="#video-modal" data-video-id="491" href="https://www.dar.gov.ph/videos/video/">
+                                        DAR news update (2024 september week 3).                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade video-modal" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="Video" aria-hidden="true">
+            <div class="modal-dialog modal-lg text-body" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body pb-0">
+                        <p class="small byline">
+                            <span class="date"><i class="fas fa-calendar-alt mr-1 text-primary"></i> <span></span></span>
+                        </p>
+                        <div class="embed-responsive embed-responsive-16by9 bg-secondary">
+                            <iframe width="100%" src="" frameborder="0"></iframe>
+                        </div>
+                        <div class="caption mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+<!-- Photos -->
+<div class="wrapper wrapper-area-photos" style="background: #cfcfcf none">
+    <div class="widget widget-latest-photos">
+        <div class="container mt-0">
+            <div class="row">
+                <div class="col-24">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Photos</h2>
+                        <p class="h6 m-0 p-0"><a href="/photos/" class="">More <strong>Photos</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-body">
+            <div class="layout-bravo">
+            <div class="container">
+            <div class="grid row">
+                                    <div class="grid-item align-content-end col-sm-12 col-12 h-2 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4175" href="/photos/4175">
+                            <div class="photo rounded d-flex align-items-end h-2" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-094938.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end grid-sizer col-sm-6  col-12 h-1 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4174" href="/photos/4174">
+                            <div class="photo rounded d-flex align-items-end h-1" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-095251.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-6  col-12 h-1 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4173" href="/photos/4173">
+                            <div class="photo rounded d-flex align-items-end h-1" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-095418.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-6  col-12 h-1 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4172" href="/photos/4172">
+                            <div class="photo rounded d-flex align-items-end h-1" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-095516.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-6  col-12 h-1 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4171" href="/photos/4171">
+                            <div class="photo rounded d-flex align-items-end h-1" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-100811.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-6  col-12 h-1 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4170" href="/photos/4170">
+                            <div class="photo rounded d-flex align-items-end h-1" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-100411.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-12 col-11 h-2 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4169" href="/photos/4169">
+                            <div class="photo rounded d-flex align-items-end h-2" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/08/05/20240802-095841.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">Training of Trainers for prospective applicants and accredited cooperative training providers under the Don Mariano Marcos Memorial State University Open University System at Puerto San Juan Resort on July 31-August 2, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-6  col-12 h-2 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4168" href="/photos/4168">
+                            <div class="photo rounded d-flex align-items-end h-2" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/06/28/photos-kbp-with-dar-20240625-01-naoerm.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">DAR Region 1's KAPIHAN SA BAGONG PILIPINAS on June 25, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="grid-item align-content-end col-sm-6  col-12 h-1 mb-3">
+                        <a class="d-block" data-toggle="modal" data-target="#photo-modal" data-photo-id="4167" href="/photos/4167">
+                            <div class="photo rounded d-flex align-items-end h-1" style="background-image: url('https://media.dar.gov.ph/res-0800x0450/2024/06/28/photos-kbp-with-dar-20240625-02-naoerm.jpg')">
+                                <p class="p-3 m-0 w-100 rounded-bottom text-white bg-black-50">DAR Region 1's KAPIHAN SA BAGONG PILIPINAS on June 25, 2024</p>
+                            </div>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade photo-modal" id="photo-modal" tabindex="-1" role="dialog" aria-labelledby="Photo" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body pb-0">
+                        <p class="small byline">
+                            <span class="date"><i class="fas fa-calendar-alt mr-1 text-primary"></i> <span></span></span>
+                        </p>
+                        <div class="image-area rounded mb-3 bg-secondary" style="">
+                            <img src="#" class="d-block img-fluid rounded" style="visibility: hidden; min-height: 300px" alt="">
+                        </div>
+                        <div class="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+<!-- Magazines: Balitang DAR -->
+<div class="wrapper wrapper-area-magazines py-5" style="background: #fafafa none">
+    <div class="widget widget-latest-magazines">
+        <div class="container mt-0">
+            <div class="row">
+                <div class="col-24">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Balitang DAR</h2>
+                        <p class="h6 m-0 p-0"><a href="/balitang-dar/" class="">More <strong>Issues</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-body">
+                <div class="container mt-0">
+        <div class="row">
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitang-dar/issues/2022/1"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitang-dar/2022/1/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitang-dar/issues/2022/1">January - March 2022</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitang-dar/2022/1/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitang-dar/issues/2020/4"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitang-dar/2020/4/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitang-dar/issues/2020/4">October - December 2020</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitang-dar/2020/4/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitang-dar/issues/2020/3"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitang-dar/2020/3/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitang-dar/issues/2020/3">July - September 2020</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitang-dar/2020/3/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitang-dar/issues/2020/2"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitang-dar/2020/2/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitang-dar/issues/2020/2">April - June 2020</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitang-dar/2020/2/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Magazines: Balitaang Agrarian -->
+<div class="wrapper wrapper-area-magazines py-5" style="background: #fafafa none">
+    <div class="widget widget-latest-magazines">
+        <div class="container mt-0">
+            <div class="row">
+                <div class="col-24">
+                    <div class="widget-heading d-flex justify-content-between align-items-end p-3 mb-3 bg-dark-80 text-white rounded">
+                        <h2 class="h5 m-0 p-0">Balitaang Agrarian</h2>
+                        <p class="h6 m-0 p-0"><a href="/balitaang-agrarian/" class="">More <strong>Issues</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-body">
+                <div class="container mt-0">
+        <div class="row">
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/6"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/6/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/6">March 2023</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/6/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/5"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/5/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/5">Marso 2023</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/5/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/3"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/3/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/3">Pebrero 2023</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/3/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                            <div class="col-sm-2 col-md-6 text-center">
+                    <p><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/4"><img class="border rounded m-0 w-100" src="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/4/preview.jpg"></a></p>
+                    <h4 class="h5 mt-0 mb-3"><a href="https://www.dar.gov.ph/balitaang-agrarian/issues/2023/4">February 2023</a></h4>
+                    <p><a class="btn btn-primary" href="https://media.dar.gov.ph/magazines/balitaang-agrarian/2023/4/magazine.pdf" target="_blank">Download</a></p>
+                </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="wrapper wrapper-area-text">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="widget widget-text widget-text-eee">
+                    <div class="widget-body">
+                        <p class="m-0 p-5"><span class="educate">Educate.</span> <span class="empower">Empower.</span> <span class="engage">Engage.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!--
+<div class="wrapper wrapper-area-feeds">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="widget widget-feed">
+                    <div class="widget-body">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgov.ph.dar&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true" width="500" height="500" class="border-0" style="overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!--
+<div class="wrapper wrapper-area-news-categories">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="widget widget-news-categories">
+                    <h2 class="widget-heading h4 mt-0">Categories</h2>
+                    <div class="widget-body">
+                            <div class="row">
+                <div class="col-sm-6 col-xs-12 text-center">
+            <a class="category d-flex justify-content-center align-items-center" href="https://www.dar.gov.ph/articles/dar-in-the-news/" style="background-image: url('https://media.dar.gov.ph/res-0640x0360http://media.dar.gov.ph2018/04/04/news_national_1_pix_1_march_27_2018_5ac441b686cfd8_83908999.jpg')">
+                <span class="d-block">Land</span>
+            </a>
+        </div>
+                <div class="col-sm-6 col-xs-12 text-center">
+            <a class="category d-flex justify-content-center align-items-center" href="https://www.dar.gov.ph/articles/dar-in-the-news/" style="background-image: url('https://media.dar.gov.ph/res-0640x0360http://media.dar.gov.ph2018/04/16/news_national_1_pix_4_april_5_2018_5ad3d40761cec4_14011976.jpg')">
+                <span class="d-block">Craft</span>
+            </a>
+        </div>
+                <div class="col-sm-6 col-xs-12 text-center">
+            <a class="category d-flex justify-content-center align-items-center" href="https://www.dar.gov.ph/articles/dar-in-the-news/" style="background-image: url('https://media.dar.gov.ph/res-0640x0360http://media.dar.gov.ph2018/04/16/news_national_1_pix_3_april_5_2018_5ad3d49d650006_75488957.jpg')">
+                <span class="d-block">Vegetation</span>
+            </a>
+        </div>
+                <div class="col-sm-6 col-xs-12 text-center">
+            <a class="category d-flex justify-content-center align-items-center" href="https://www.dar.gov.ph/articles/dar-in-the-news/" style="background-image: url('https://media.dar.gov.ph/res-0640x0360http://media.dar.gov.ph2018/05/02/DSC03026_5ae9c99685b6c7_19339843.jpg')">
+                <span class="d-block">Livelihood</span>
+            </a>
+        </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+</div>
+        <div id="footer-widget-area" class="footer-widget-area pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pr-5">
+                <div class="media mb-5">
+                    <div class="media-body">
+                        <h2 class="h5 text-white">Department of Agrarian Reform</h2>
+                        <p>The Department of Agrarian Reform is the lead government agency that holds and implements comprehensive and genuine agrarian
+                            reform which actualizes equitable land distribution, ownership, agricultural productivity, and
+                            tenurial security for, of and with the tillers of the land towards the improvement of their quality of life.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="mr-4" src="/assets/images/ph-coat-of-arms-bw.png" width="75" alt="Coat of Arms of the Philippines" style="filter: grayscale(100%)">
+                    <div class="media-body">
+                        <strong class="text-uppercase d-block mb-3">Republic of the Philippines</strong>
+                        All content is in the public domain unless otherwise stated.
+                    </div>
+                </div>
+
+                <!--
+                <address class="mb-3">
+                    <strong class="text-uppercase">Department of Agrarian Reform</strong><br>
+                    Kagawaran ng Repormang Pansakahan<br>
+                    Elliptical Road, Diliman, Quezon City<br>
+                    Philippines
+                </address>
+                <div class="contact phone mb-3">
+                    <span class="field small">Phone Numbers</span><br>
+                    <span class="values">
+                        (02) 453-7980 - Public Assistance and Information Center (PAIC)<br>
+                        (02) 928-6821 - Public Affairs and Media Relations Service (PAMRS)
+                    </span>
+                </div>
+                <div class="contact phone">
+                    <span class="field small">Email</span><br>
+                    <span class="values"><a href="mailto:contact_us@dar.gov.ph">contact_us@dar.gov.ph</a></span>
+                </div>
+                -->
+            </div>
+            <div class="col-md-8">
+                <div class="widget widget-site-directory">
+                    <h2 class="h5 font-weight-bold text-uppercase" style="letter-spacing: 2px">Site Directory</h2>
+                    <ul class="directory list-unstyled"><li class=""><a class="" href="/">Home</a></li><li class=""><a class="" href="/#" data-toggle="dropdown">About Us</a><ul class="submenu"><li class=""><a href="/about-us/secretary/">Secretary</a></li><li class=""><a href="/about-us/mandate-mission-and-vision/">Mandate, Vision, and Mission</a></li><li class=""><a href="/about-us/agrarian-reform-history/">Agrarian Reform History</a></li><li class=""><a href="/about-us/dar-leaders/">DAR Leaders</a></li><li class=""><a href="/about-us/officials/">Officials</a></li></ul></li><li class=""><a class="" href="/services/">Services</a></li><li class=""><a class="" href="/policies/">Policies</a></li><li class=""><a class="" href="/articles/news/">Articles</a></li><li class=""><a class="" href="/contact-us">Contact Us</a></li></ul>                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="widget widget-socmed">
+                    <h2 class="h5 font-weight-bold text-uppercase" style="letter-spacing: 2px">Follow Us</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a class="d-inline-block" href="https://www.facebook.com/dargovph/" rel="noopener" target="_blank">
+                                <span class="fa-stack fa-1x">
+                                  <i class="fas fa-square fa-stack-2x"></i>
+                                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse socmed-color-facebook"></i>
+                                </span>
+
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a class="d-inline-block" href="https://twitter.com/dargovph" rel="noopener" target="_blank">
+                                <span class="fa-stack fa-1x">
+                                  <i class="fas fa-square fa-stack-2x"></i>
+                                  <i class="fab fa-twitter fa-stack-1x fa-inverse socmed-color-twitter"></i>
+                                </span>
+
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-inline-block" href="https://www.youtube.com/channel/UCTakieoa4wOQU_rwMeHxnoA" rel="noopener" target="_blank">
+                                <span class="fa-stack fa-1x">
+                                  <i class="fas fa-square fa-stack-2x"></i>
+                                  <i class="fab fa-youtube fa-stack-1x fa-inverse socmed-color-youtube"></i>
+                                </span>
+
+                                Youtube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div> <!-- #content -->
+    <div id="footer" class="footer bg-primary text-white small">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p class="m-0 p-3">2024 Department of Agrarian Reform.</p>
+            </div>
+        </div>
+    </div>
+</div> <!-- #footer -->
+
+<div class="overlay overlay-dv">
+    <div class="position-relative">
+        <button class="btn btn-lg bg-transparent border-none position-absolute text-white" style="right: 0; top: 0">
+            <span class="display-4" style="line-height: 1">&times;</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-24 py-5 overlay-content" id="dv-overlay-content">
+
+            </div>
+        </div>
+    </div>
+</div></div> <!-- #wrap -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121850546-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-121850546-1');
+</script>
+<script type="text/javascript" src="/assets/js/libraries.min.js"></script>
+<script type="text/javascript" src="/assets/js/main.min.js"></script></body>
+</html>

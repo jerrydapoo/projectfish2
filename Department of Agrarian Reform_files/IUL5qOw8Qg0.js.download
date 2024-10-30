@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("XPlatReactUserAgent",["UserAgent"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=c("UserAgent")}),98);
+__d("killswitch",["KSConfig"],(function(a,b,c,d,e,f){"use strict";function a(a){return b("KSConfig").killed.has(a)}e.exports=a}),null);
