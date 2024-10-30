@@ -6,6 +6,23 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000; // Use Render's PORT environment variable
 
+const { MongoClient } = require('mongodb');
+
+const uri = "mongodb+srv://garycantilang:wMfHyhRaq8pg4Mh1@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your connection string
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+async function connectToDatabase() {
+    try {
+      await client.connect();
+      console.log("Connected to MongoDB");
+      // Access your database with client.db('<database_name>')
+    } catch (error) {
+      console.error("MongoDB connection error:", error);
+    }
+  }
+  
+  connectToDatabase();
+
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public')); // Serve static files from the "public" directory
