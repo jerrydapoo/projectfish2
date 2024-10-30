@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000; // Use Render's PORT environment variable
 
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://garycantilang:<db_password>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true"; // Replace with your connection string
+const uri = "mongodb+srv://garycantilang:<db_password>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&ssl=true&tlsInsecure=true"; // Replace with your connection string
 const client = new MongoClient(uri);
 
 async function connectToDatabase() {
