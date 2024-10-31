@@ -183,13 +183,27 @@ app.get('/success', (req, res) => {
     </div>
 
         <script>
-            document.getElementById('loginForm').addEventListener('submit', function (e) {
-                e.preventDefault();
+    document.getElementById('loginForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
 
-                const username = document.getElementById('username').value;
-                const password = document.getElementById('password').value;
-            });
-        </script>
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        // Send login data
+        const response = await fetch('/submit-login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams({ username, password })
+        });
+
+        // If login is successful, redirect to Job Postings
+        if (response.ok) {
+            window.location.href = '/Job Postings.html?loggedin=true';
+        } else {
+            alert('Login failed');
+        }
+    });
+</script>
 
 </body>
 </html>
