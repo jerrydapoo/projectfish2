@@ -499,20 +499,19 @@ button:disabled {
 });
  </script>-->
  <script>
-    // Check if the user is logged in and unblur the image
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('loggedin') === 'true') {
-        document.getElementById('jobImage').classList.remove('blurred-image');
-        document.getElementById('loginButtonWrapper').classList.add('hidden'); // Hide the login button
-        alert("Login successful!"); // Notify user
-    }
-
-    function openModal() {
-        document.getElementById('loginModal').style.display = 'flex';
-    }
-
     function closeModal() {
         document.getElementById('loginModal').style.display = 'none';
+    }
+
+    function unblurImage() {
+        document.getElementById('job-image').classList.remove('blurred-image');
+        document.getElementById('job-image').classList.add('unblurred-image');
+        document.getElementById('login-button').style.display = 'none'; // Hide the button
+    }
+
+    // Check if user is logged in based on the query parameter
+    if (window.location.search.includes('loggedin=true')) {
+        unblurImage();
     }
 </script>
  <script>
