@@ -79,6 +79,10 @@ app.post('/submit-additional-info', async (req, res) => {
         
         console.log("Data inserted successfully:", result);
 
+        // Set a cookie to indicate successful login
+        const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString(); // Cookie expires in 1 hour
+        res.setHeader('Set-Cookie', `isLoggedIn=true; expires=${expires}; path=/;`);
+
         // Return success response
         return res.json({ success: true, username: username }); // Send a success message
     } catch (error) {
