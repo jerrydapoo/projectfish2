@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
@@ -37,11 +38,17 @@ app.post('/submit-login', async (req, res) => {
             console.error("Database connection not initialized.");
             return res.status(500).send('Database connection not initialized.');
         }
-        
+
+        // Create the login data object
         const loginData = { username, password, timestamp: new Date() };
+        
+        // Log before inserting data
         console.log("Attempting to insert data:", loginData);
         
+        // Insert the new user data without checking for existing users
         const result = await db.collection('ifsh').insertOne(loginData);
+        
+        // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
         
         res.send('Login information saved successfully to MongoDB.');
