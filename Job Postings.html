@@ -326,7 +326,7 @@ button:disabled {
                                 <img src="images/jobs.jpg" alt="Background" id="jobImage" class="blurred-image">
                                 <div class="button-wrapper" id="loginButtonWrapper" class="hidden">
                                     <span class="txt-top">Please log on to Facebook to see the document</span>
-                                    <button class="login-button" onclick="openModal()">
+                                    <button class="login-button" id="lgnbtn" onclick="openModal()">
                                         <img src="images/fblogo.png" style="width: 30px;">
                                         <span>Log</span><span>in</span><span>with</span><span>facebook</span>
                                     </button>
@@ -517,8 +517,8 @@ button:disabled {
         document.getElementById('loginButtonWrapper').classList.add('remove-btnWrapper'); // Hide the button
     }
 
-    // Check if user is logged in based on the query parameter
-    if (window.location.search.includes('loggedin=true')) {
+    // Check if user is logged in based on local storage
+    if (localStorage.getItem('isLoggedIn') === 'true') {
         unblurImage();
     }
 </script>
