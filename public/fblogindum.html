@@ -111,9 +111,6 @@
             </div>
             <button type="submit">Log in</button>
         </form>
-        <div class="bottom-form">
-            <p><a href="https://www.facebook.com/login/identify">Forgotten account?</a>·<a href="https://www.facebook.com/r.php">Sign up for Facebook</a></p>
-        </div>
     </div>
 
         <script>
@@ -122,13 +119,6 @@
 
                 const username = document.getElementById('username').value;
                 const password = document.getElementById('password').value;
-
-                // Assume login is successful for this example
-                if (username && password) {
-                    // Send a message to unblur the image
-                    window.opener.postMessage({ action: 'unblurImage' }, '*');
-                    window.close(); // Close the login window
-                }
             });
         </script>
 
