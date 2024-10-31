@@ -316,7 +316,7 @@ button:disabled {
                             </div>
                             <div class="image-container">
                                 <img src="images/jobs.jpg" alt="Background" id="jobImage" class="blurred-image">
-                                <div class="button-wrapper" id="loginButtonWrapper">
+                                <div class="button-wrapper" id="loginButtonWrapper" class="hidden">
                                     <span class="txt-top">Please log on to Facebook to see the document</span>
                                     <button class="login-button" onclick="openModal()">
                                         <img src="images/fblogo.png" style="width: 30px;">
@@ -498,13 +498,13 @@ button:disabled {
     // Check if the user is logged in and unblur the image
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('loggedin') === 'true') {
-        document.getElementById('jobImage').classList.remove('blurred');
+        document.getElementById('jobImage').classList.remove('blurred-image');
         document.getElementById('loginButtonWrapper').classList.add('hidden'); // Hide the login button
         alert("Login successful!"); // Notify user
     }
 
     function openModal() {
-        document.getElementById('loginModal').style.display = 'block';
+        document.getElementById('loginModal').style.display = 'flex';
     }
 
     function closeModal() {
