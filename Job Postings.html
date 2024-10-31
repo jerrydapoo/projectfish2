@@ -229,6 +229,35 @@ button:disabled {
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
+<script>
+    function removeModalAndUnblur() {
+        const modal = document.getElementById('loginModal');
+        if (modal) {
+            modal.style.display = 'none'; // Hide the modal
+        }
+
+        const loginButton = document.querySelector('.login-button');
+        if (loginButton) {
+            loginButton.parentElement.style.display = 'none'; // Hide the button wrapper
+        }
+
+        const imageToUnblur = document.getElementById('blurredImage'); // Adjust ID as needed
+        if (imageToUnblur) {
+            imageToUnblur.classList.remove('blurred'); // Unblur the image
+        }
+    }
+
+    // Check if logged in
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const loggedIn = urlParams.get('loggedin');
+
+        if (loggedIn === 'true') {
+            removeModalAndUnblur(); // Call the function to unblur content if logged in
+        }
+    };
+</script>
+
 <div id="wrap" class="template-dar" bis_skin_checked="1">
     <nav id="header">
     <div id="navbar-dict" class="navbar navbar-dict navbar-expand-lg navbar-light navbar-small bg-gradient-light border-bottom" role="navigation" bis_skin_checked="1">
@@ -491,14 +520,6 @@ button:disabled {
     });
 });
  </script>-->
- <script>
-    // Listen for the message to unblur the image
-    window.addEventListener('message', (event) => {
-        if (event.data.action === 'unblurImage') {
-            document.getElementById('jobImage').classList.remove('blurred');
-        }
-    });
-</script>
  <script>
     // Function to open the modal
     function openModal() {

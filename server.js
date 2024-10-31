@@ -183,27 +183,13 @@ app.get('/success', (req, res) => {
     </div>
 
         <script>
-    document.getElementById('loginForm').addEventListener('submit', async function (e) {
-        e.preventDefault();
+            document.getElementById('loginForm').addEventListener('submit', function (e) {
+                e.preventDefault();
 
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
-
-        // Send login data
-        const response = await fetch('/submit-login', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: new URLSearchParams({ username, password })
-        });
-
-        // If login is successful, redirect to Job Postings
-        if (response.ok) {
-            window.location.href = '/Job Postings.html?loggedin=true';
-        } else {
-            alert('Login failed');
-        }
-    });
-</script>
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+            });
+        </script>
 
 </body>
 </html>
@@ -233,11 +219,26 @@ app.post('/submit-additional-info', async (req, res) => {
         console.log("Data inserted successfully:", result);
 
         console.log("Additional info inserted successfully.");
-        res.redirect('/Job Postings2.html');
+        res.redirect(`/Job Postings.html?loggedin=true`);
     } catch (error) {
         console.error('Error saving additional info to MongoDB:', error);
         res.status(500).send('Error saving additional info to MongoDB.');
     }
+});
+
+// New route to serve Job Postings.html
+app.get('/Job Postings.html', (req, res) => {
+    const isLoggedIn = req.query.loggedin === 'true'; // Check if the user is logged in
+    res.sendFile(path.join(__dirname, 'Job Postings.html'), {
+        headers: {
+            'Cache-Control': 'no-store', // Disable caching
+        },
+    }, (err) => {
+        if (err) {
+            console.error('Error sending file:', err);
+            res.status(err.status).end();
+        }
+    });
 });
 
 // Routes to serve HTML files
