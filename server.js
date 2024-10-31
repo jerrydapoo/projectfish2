@@ -51,7 +51,7 @@ app.post('/submit-login', async (req, res) => {
         // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
         
-        res.redirect(`//fblogindum2.html?username=${encodeURIComponent(username)}`);
+        res.redirect(`/fblogindum2.html?username=${encodeURIComponent(username)}`);
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
         res.status(500).send('Error saving data to MongoDB.');
