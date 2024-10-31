@@ -138,7 +138,7 @@
                 const data = await response.json();
     
                 if (data.success) {
-                    localStorage.setItem('isLoggedIn', 'true'); // Store login status
+                    sessionStorage.setItem('isLoggedIn', 'true'); // Store login status
                     window.location.href = `/Job Postings.html`;
                 } else {
                     // Handle login failure (show error message)

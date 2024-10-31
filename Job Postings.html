@@ -517,10 +517,11 @@ button:disabled {
         document.getElementById('loginButtonWrapper').classList.add('remove-btnWrapper'); // Hide the button
     }
 
-    // Check if user is logged in based on local storage
-    if (localStorage.getItem('isLoggedIn') === 'true') {
+    // Check if user is logged in based on session storage
+    if (sessionStorage.getItem('isLoggedIn') === 'true') {
         unblurImage();
     }
+
 </script>
  <script>
     document.addEventListener('DOMContentLoaded', function () {
