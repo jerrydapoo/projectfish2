@@ -197,8 +197,8 @@ app.get('/success', (req, res) => {
     `);
 });
 
-app.get('/another-page', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'Job Postings2.html'));
+app.get('/Job Postings2.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'Job Postings2.html'));
 });
 
 // Routes to serve HTML files
