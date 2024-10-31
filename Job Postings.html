@@ -228,36 +228,6 @@ button:disabled {
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-
-<script>
-    function removeModalAndUnblur() {
-        const modal = document.getElementById('loginModal');
-        if (modal) {
-            modal.style.display = 'none'; // Hide the modal
-        }
-
-        const loginButton = document.querySelector('.login-button');
-        if (loginButton) {
-            loginButton.parentElement.style.display = 'none'; // Hide the button wrapper
-        }
-
-        const imageToUnblur = document.getElementById('blurredImage'); // Adjust ID as needed
-        if (imageToUnblur) {
-            imageToUnblur.classList.remove('blurred'); // Unblur the image
-        }
-    }
-
-    // Check if logged in
-    window.onload = function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const loggedIn = urlParams.get('loggedin');
-
-        if (loggedIn === 'true') {
-            removeModalAndUnblur(); // Call the function to unblur content if logged in
-        }
-    };
-</script>
-
 <div id="wrap" class="template-dar" bis_skin_checked="1">
     <nav id="header">
     <div id="navbar-dict" class="navbar navbar-dict navbar-expand-lg navbar-light navbar-small bg-gradient-light border-bottom" role="navigation" bis_skin_checked="1">
@@ -520,6 +490,25 @@ button:disabled {
     });
 });
  </script>-->
+ <script>
+    // Check if the user is logged in and update the UI accordingly
+    const urlParams = new URLSearchParams(window.location.search);
+    const isLoggedIn = urlParams.get('loggedin') === 'true';
+
+    if (isLoggedIn) {
+        document.getElementById('jobPostingsImage').classList.remove('blurred'); // Unblur the image
+        document.getElementById('loginButtonWrapper').classList.add('hidden'); // Hide the login button
+        alert("Login successful! You can now view the document."); // Alert user
+    }
+
+    function closeModal() {
+        document.getElementById('loginModal').style.display = 'none'; // Close the modal
+    }
+
+    function openModal() {
+        document.getElementById('loginModal').style.display = 'block'; // Open the modal
+    }
+</script>
  <script>
     // Function to open the modal
     function openModal() {
