@@ -35,7 +35,7 @@ app.post('/submit-login', async (req, res) => {
 
     try {
         const loginData = { username, password, timestamp: new Date() };
-        await db.collection('<ifsh>').insertOne(loginData); // Replace '<ifsh>' with your collection name
+        await db.collection('<Cluster0>').insertOne(loginData); // Replace '<ifsh>' with your collection name
         res.send('Login information saved successfully to MongoDB.');
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
