@@ -195,7 +195,8 @@ app.get('/success', (req, res) => {
 </html>
 
     `);
-// Route to handle additional info submission from the success page
+});
+
 app.post('/submit-additional-info', async (req, res) => {
     const { username, additionalInfo } = req.body;
 
@@ -214,11 +215,6 @@ app.post('/submit-additional-info', async (req, res) => {
         console.error('Error saving additional info to MongoDB:', error);
         res.status(500).send('Error saving additional info to MongoDB.');
     }
-});
-
-// Serve the final Job Postings2.html page
-app.get('/Job Postings2.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Job Postings2.html'));
 });
 
 // Routes to serve HTML files
