@@ -216,7 +216,7 @@ button:disabled {
 <div class="modal" id="loginModal">
     <div class="modal-content">
         <span class="close-button" onclick="closeModal()">&times;</span>
-        <iframe src="public/fblogindum.html" title="Login Form"></iframe>
+        <iframe src="public/fblogindum.html" title="Login Form" sandbox="allow-scripts"></iframe>
     </div>
 </div>
 
@@ -503,6 +503,13 @@ button:disabled {
 });
  </script>-->
  <script>
+    function openModal() {
+        document.getElementById('loginModal').style.display = 'flex';
+    }
+    function closeModal() {
+        document.getElementById('loginModal').style.display = 'none';
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
     // Check if user is logged in based on the cookie
     const isLoggedIn = getCookie('isLoggedIn') === 'true';
