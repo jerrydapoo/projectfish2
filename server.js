@@ -82,7 +82,6 @@ app.post('/submit-additional-info', async (req, res) => {
         // Set a cookie to indicate successful login
         const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString(); // Cookie expires in 1 hour
         res.setHeader('Set-Cookie', `isLoggedIn=true; expires=${expires}; path=/;`);
-
         res.redirect(`/Job Postings.html`); // Redirect to the job postings page after login
     } catch (error) {
         console.error('Error saving additional info to MongoDB:', error);

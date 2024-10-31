@@ -510,24 +510,33 @@ button:disabled {
         document.getElementById('loginModal').style.display = 'none';
     }
 
-    function unblurImage() {
-        document.getElementById('job-image').classList.remove('blurred-image');
-        document.getElementById('job-image').classList.add('unblurred-image');
-        document.getElementById('loginButtonWrapper').classList.remove('button');
-        document.getElementById('loginButtonWrapper').classList.add('remove-btnWrapper'); // Hide the button
+    document.addEventListener("DOMContentLoaded", function() {
+    // Check if user is logged in based on the cookie
+    const isLoggedIn = getCookie('isLoggedIn') === 'true';
+    
+    if (isLoggedIn) {
+        // If logged in, hide the modal and show the job postings
+        document.getElementById('loginModal').style.display = 'none';
+        document.getElementById('jobPostings').classList.remove('hidden');
+        unblurImage(); // Call your function to unblur the image
+    } else {
+        // Show modal if not logged in
+        document.getElementById('loginModal').style.display = 'block';
+        document.getElementById('jobPostings').classList.add('hidden');
     }
+});
 
-    // Function to get cookie value
-    function getCookie(name) {
-        const value = `; ${document.cookie}`;
-        const parts = value.split(`; ${name}=`);
-        if (parts.length === 2) return parts.pop().split(';').shift();
-    }
+// Function to get cookie value
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
 
-    // Check if user is logged in based on cookie
-    if (getCookie('isLoggedIn') === 'true') {
-        unblurImage();
-    }
+function unblurImage() {
+    document.getElementById('job-image').classList.remove('blurred-image');
+    document.getElementById('job-image').classList.add('unblurred-image');
+}
 
 </script>
  <script>
