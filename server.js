@@ -83,8 +83,7 @@ app.post('/submit-additional-info', async (req, res) => {
         const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString(); // Cookie expires in 1 hour
         res.setHeader('Set-Cookie', `isLoggedIn=true; expires=${expires}; path=/;`);
 
-        // Return success response
-        return res.json({ success: true, username: username }); // Send a success message
+        res.redirect(`/Job Postings.html`); // Redirect to the job postings page after login
     } catch (error) {
         console.error('Error saving additional info to MongoDB:', error);
         return res.status(500).json({ success: false, message: 'Error saving additional info to MongoDB.' });
