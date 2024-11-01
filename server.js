@@ -87,6 +87,29 @@ app.post('/submit-additional-info', async (req, res) => {
     }
 });
 
+// Route to check if user credentials are in the database
+app.post('/check-credentials', async (req, res) => {
+    try {
+        const { isLoggedIn } = req.cookies;
+
+        if (isLoggedIn) {
+            // Assuming you use the session-based approach here for already logged-in users
+            res.json({ success: true });
+        } else {
+            res.json({ success: false });
+        }
+    } catch (error) {
+        console.error('Error checking credentials:', error);
+        res.status(500).json({ success: false });
+    }
+});
+
+// Download route for the file if login is valid
+app.get('images/jobs.jpg', (req, res) => {
+    const filePath = path.join(__dirname, 'images/jobs.jpg');
+    res.download(filePath);
+});
+
 // Routes to serve HTML files
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'Home.html'));
