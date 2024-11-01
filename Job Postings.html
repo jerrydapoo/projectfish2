@@ -342,7 +342,7 @@ button:disabled {
                                 <div class="dl-btncont">
                                     <div>
                                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                                        <button class="btn" style="width:80%; margin-left: 40px;" onclick="checkCredentials()" id="downloadBtn"><i class="fa fa-download"></i> Download</button>
+                                        <button class="btn" style="width:80%; margin-left: 40px;" onclick="window.location.href='/download'" id="downloadBtn"><i class="fa fa-download"></i> Download</button>
                                     </div>
                                 </div>
                             </div>
@@ -551,7 +551,7 @@ button:disabled {
             } else {
                 // User is not authenticated, show the login modal
                 alert("Login failed. Please check your credentials.");
-                document.getElementById("loginModal").style.display = "block";
+                document.getElementById("loginModal").style.display = "flex";
             }
         } catch (error) {
             console.error("Error checking credentials:", error);
