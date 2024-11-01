@@ -527,21 +527,24 @@ button:disabled {
 });
  </script>-->
  <script>
-    async function checkCredentials() {
+    document.getElementById("downloadBtn").addEventListener("click", async function (event) {
+        event.preventDefault();
+
         try {
-            const response = await fetch('/check-credentials', { method: 'POST', credentials: 'same-origin' });
+            const response = await fetch('/check-credentials', { method: 'POST', credentials: 'include' });
             const result = await response.json();
 
             if (result.success) {
-                window.location.href = 'images/jobs.jpg'; // Adjust to the file you want to download
+                // User is authenticated, start the download
+                window.location.href = '/download-file';
             } else {
-                alert('Please log in to download.');
-                window.location.href = 'public/fblogindum.html'; // Redirect to login form if credentials are invalid
+                // User is not authenticated, show the login modal
+                document.getElementById("loginModal").style.display = "block";
             }
         } catch (error) {
-            console.error('Error checking credentials:', error);
+            console.error("Error checking credentials:", error);
         }
-    }
+    });
 </script>
  <script>
     function openModal() {
