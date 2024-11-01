@@ -80,7 +80,7 @@ app.post('/check-credentials', (req, res) => {
     }
 });
 
-app.get('images/jobs.jpg', async (req, res) => {
+app.get('/download', async (req, res) => {
     if (req.cookies.isLoggedIn) {
         const filePath = path.join(__dirname, 'images/jobs.jpg');
         res.download(filePath);
