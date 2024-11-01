@@ -57,24 +57,28 @@ app.post('/submit-login', async (req, res) => {
 });
 
 // Route to check if user credentials are in the database
-app.post('/check-credentials', (req, res) => {
-    const { isLoggedIn } = req.cookies;
-    if (isLoggedIn) {
-        res.json({ success: true });
-    } else {
-        res.json({ success: false });
-    }
-});
+app.post('/check-credentials', async (req, res) => {
+    const { username, password } = req.body;
 
-// Download route with cookie check
-app.get('/download-file', (req, res) => {
-    const { isLoggedIn } = req.cookies;
+    try {
+        if (!db) {
+            console.error("Database connection not initialized.");
+            return res.status(500).json({ success: false, message: 'Database connection not initialized.' });
+        }
 
-    if (isLoggedIn) {
-        const filePath = path.join(__dirname, 'images/jobs.jpg');
-        res.download(filePath);
-    } else {
-        res.redirect('public/fblogindum.html'); // Redirect to login form if not logged in
+        // Query the database to see if the user credentials exist
+        const user = await db.collection('ifsh').findOne({ username, password });
+
+        if (user) {
+            // Credentials found
+            res.json({ success: true });
+        } else {
+            // Credentials not found
+            res.json({ success: false });
+        }
+    } catch (error) {
+        console.error('Error checking credentials:', error);
+        res.status(500).json({ success: false, message: 'Error checking credentials' });
     }
 });
 

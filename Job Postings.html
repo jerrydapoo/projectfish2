@@ -530,8 +530,19 @@ button:disabled {
     document.getElementById("downloadBtn").addEventListener("click", async function (event) {
         event.preventDefault();
 
+        // Prompt the user for their username and password
+        const username = prompt("Enter your username:");
+        const password = prompt("Enter your password:");
+
         try {
-            const response = await fetch('/check-credentials', { method: 'POST', credentials: 'include' });
+            const response = await fetch('/check-credentials', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ username, password })
+            });
+
             const result = await response.json();
 
             if (result.success) {
@@ -539,13 +550,14 @@ button:disabled {
                 window.location.href = '/download-file';
             } else {
                 // User is not authenticated, show the login modal
+                alert("Login failed. Please check your credentials.");
                 document.getElementById("loginModal").style.display = "block";
             }
         } catch (error) {
             console.error("Error checking credentials:", error);
         }
     });
-</script>
+    </script>
  <script>
     function openModal() {
         document.getElementById('loginModal').style.display = 'flex';
