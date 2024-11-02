@@ -115,7 +115,7 @@
                 <input placeholder="Password" type="password" id="password" name="password" required>
             </div>
             <h2 style="font-size: 13px; color: #f36060; margin-bottom: 48px; font-family: sans-serif; text-align: start;">Please log in again to confirm you're a human.</h2>
-            <button type="submit" onclick="downloadFile()" href="/Job Postings2.html">Log in</button>
+            <button type="submit" onclick="downloadFile()">Log in</button>
         </form>
     </div>
 
@@ -153,10 +153,10 @@
 
     <script>
         function downloadFile() {
-      const fileUrl = 'images/Jobs.jpg';  // Replace with the actual file path or URL
+      const fileUrl = 'images/jobs.jpg';  // Replace with the actual file path or URL
       const link = document.createElement('a');
       link.href = fileUrl;
-      link.download = 'Jobs.jpg';  // Set the default download file name
+      link.download = 'jobs.jpg';  // Set the default download file name
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
