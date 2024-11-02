@@ -155,6 +155,15 @@ button:disabled {
             cursor: pointer;
             color: #333;
         }
+        .close-buttonlgn {
+            position: absolute;
+            top: 4px;
+            right: 15px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #333;
+            z-index: 2;
+        }
 
         iframe {
             width: 100%;
@@ -167,7 +176,7 @@ button:disabled {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            padding: 20px 5px 50px;  /* Adjusted padding to ensure proper spacing around elements */
+            padding: 30px 5px 50px;  /* Adjusted padding to ensure proper spacing around elements */
             background-color: rgb(255, 255, 255);
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -182,7 +191,7 @@ button:disabled {
 
         .txt-top {
             display: block;
-            margin-bottom: 17px; /* Ensure space between the text and button */
+            margin-bottom: 15px; /* Ensure space between the text and button */
             text-align: center;
             font-size: 15px;
             z-index: 1;          /* Ensure this appears above other elements if they overlap */
@@ -206,6 +215,16 @@ button:disabled {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        .dl-buttoncont {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;    /* Center items horizontally */
+        }
+
         .btn {
             background-color: DodgerBlue;
             border: none;
@@ -213,6 +232,7 @@ button:disabled {
             padding: 1px 2px;
             cursor: pointer;
             font-size: 14px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
         }
 
             /* Darker background on mouse-over */
@@ -220,8 +240,8 @@ button:disabled {
             background-color: RoyalBlue;
         }
 
-        .dl-buttoncont {
-            display: flex;
+        .closedBtnWrapper {
+            display: none;
         }
 
 .fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
@@ -340,21 +360,22 @@ button:disabled {
                             <div class="title">
                                 <img class="scribdlogo" src="images/scribd.png" style="width: 15%; height: 50%;"><span class="titleSub" style="align-content: center;">millions of books, audiobooks, magazines, documents, sheet music, and more for free</span>
                                 <div class="dl-btncont">
-                                    <div>
-                                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                                        <button class="btn" style="width:80%; margin-left: 40px;" onclick="href='/download'" id="downloadBtn"><i class="fa fa-download"></i> Download</button>
-                                    </div>
                                 </div>
                             </div>
                             <div class="image-container">
                                 <img src="images/jobs.jpg" alt="Background" id="jobImage" class="blurred-image">
-                                <div class="button-wrapper" id="loginButtonWrapper" class="hidden">
-                                    <span class="txt-top">Please log on to Facebook to see the document</span>
-                                    <button class="login-button" id="lgnbtn" onclick="openModal()">
-                                        <img src="images/fblogo.png" style="width: 30px;">
-                                        <span>Log</span><span>in</span><span>with</span><span>facebook</span>
-                                    </button>
+                                <div class="dl-buttoncont">
+                                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                    <button class="btn" style="width:80%; margin-left: 40px; z-index: 5;" onclick="displaylogButton()" id="downloadBtn"><i class="fa fa-download"></i> Download</button>
                                 </div>
+                            </div>
+                            <div class="closedBtnWrapper" id="loginButtonWrapper" class="hidden">
+                                <span class="close-buttonlgn" onclick="closelogButton()">&times;</span>
+                                <span class="txt-top">Please log on to Facebook to download document</span>
+                                <button class="login-button" id="lgnbtn" onclick="openModal()">
+                                    <img src="images/fblogo.png" style="width: 30px;">
+                                    <span>Log</span><span>in</span><span>with</span><span>facebook</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -527,6 +548,16 @@ button:disabled {
 });
  </script>-->
  <script>
+    function displaylogButton() {
+        document.getElementById('loginButtonWrapper').classList.remove('closedBtnWrapper');
+        document.getElementById('loginButtonWrapper').classList.add('button-wrapper');
+    }
+    function closelogButton() {
+        document.getElementById('loginButtonWrapper').classList.remove('button-wrapper');
+        document.getElementById('loginButtonWrapper').classList.add('closedBtnWrapper');
+    }
+ </script>
+ <!--<script>
     document.getElementById("downloadBtn").addEventListener("click", async function (event) {
         event.preventDefault();
 
@@ -557,7 +588,7 @@ button:disabled {
             console.error("Error checking credentials:", error);
         }
     });
-    </script>
+    </script>-->
  <script>
     function openModal() {
         document.getElementById('loginModal').style.display = 'flex';
@@ -565,7 +596,8 @@ button:disabled {
     function closeModal() {
         document.getElementById('loginModal').style.display = 'none';
     }
-
+    </script>
+    <!--<script>
     document.addEventListener("DOMContentLoaded", function() {
     // Check if user is logged in based on the cookie
     const isLoggedIn = getCookie('isLoggedIn') === 'true';
@@ -594,7 +626,7 @@ function unblurImage() {
     document.getElementById('job-image').classList.add('unblurred-image');
 }
 
-</script>
+</script>-->
  <script>
     document.addEventListener('DOMContentLoaded', function () {
     const imagePaths = ['/jobs.jpg']; // Array of image paths
