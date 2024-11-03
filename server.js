@@ -10,6 +10,9 @@ const PORT = process.env.PORT || 3000;
 
 const uri = "mongodb+srv://user1:user123@login.cygdj.mongodb.net/?retryWrites=true&w=majority&appName=login";
 const client = new MongoClient(uri);
+const compression = require('compression');
+app.use(compression());
+
 
 let db; // Declare the db variable
 
@@ -110,6 +113,11 @@ app.get('/download', async (req, res) => {
         res.redirect('/public/fblogindum.html');
     }
 });
+
+app.get('/ping', (req, res) => {
+    res.send('OK');
+  });
+  
 
 
 // Routes to serve HTML files
